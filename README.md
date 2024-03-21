@@ -4,19 +4,19 @@
 
 
 
-#Instalasi Composer
+## Instalasi Composer
 ```bash
   composer update
 ```
-#Generate Key
+## Generate Key
 ```bash
   php artisan key:generate
 ```
-#Migrasi Database dan Seeder
+## Migrasi Database dan Seeder
 ```bash
   php artisan migrate:fresh --seed
 ```
-#Jalanin Program
+## Jalanin Program
 ```bash
   php artisan serve
 ```
