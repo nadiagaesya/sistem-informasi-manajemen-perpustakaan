@@ -147,7 +147,7 @@
                     </table>
 
                     <div class="card-footer text-body-secondary p-2" style="text-align: end">
-                        <button wire:click="exportPeminjaman" class="btn btn-primary">Unduh Riwayat Peminjaman</button>
+                        <button class="btn btn-primary">Unduh Riwayat Peminjaman</button>
                     </div>
                 </div>
                 <!-- /.card-body -->

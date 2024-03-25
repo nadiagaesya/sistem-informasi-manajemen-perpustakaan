@@ -127,6 +127,7 @@ class Transaksi extends Component
         $this->render(); // Memperbarui tampilan Livewire setelah logika diterapkan
     }
 
+
     public function render()
     {
         if ($this->search) {

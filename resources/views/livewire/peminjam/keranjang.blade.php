@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row" style="margin-top:70px;">
+    <div class="row">
         <div class="col-md-12 text-center">
             <div class="text" style="font-weight:bold; font-size:18px;">
                 <p>Keranjang Buku</p>

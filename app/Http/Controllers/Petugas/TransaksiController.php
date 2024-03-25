@@ -14,4 +14,5 @@ class TransaksiController extends Controller
     {
         return view('petugas/transaksi/index');
     }
+
 }

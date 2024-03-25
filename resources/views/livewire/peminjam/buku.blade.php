@@ -1,7 +1,7 @@
 <div class="container">
     @include('admin-lte.flash')
 
-    <div class="row" style="margin-top:70px; ">
+    <div class="row">
         <div class="col-md-8 mb-3">
             <h1>{{ $title }}</h1>
         </div>

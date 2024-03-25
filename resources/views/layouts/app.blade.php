@@ -28,7 +28,7 @@
 
 <body>
 
-    <div id="app">
+    <div id="app" style="margin-top: 60px;">
         <livewire:peminjam.kategori></livewire:peminjam.kategori>
 
         <main class="py-4">
