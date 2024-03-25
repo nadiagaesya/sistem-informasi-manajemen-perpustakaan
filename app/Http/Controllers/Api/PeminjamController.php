@@ -13,6 +13,7 @@ class PeminjamController extends Controller
     public function index()
     {
         $data = Peminjaman::with("user")
+            ->where("status", 3)
             ->where(function ($query) {
                 $query->whereDate("tanggal_kembali", Carbon::today()->addDays(3))
                     ->orWhereDate("tanggal_kembali", Carbon::today()->subDays(3))

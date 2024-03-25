@@ -27,6 +27,7 @@
 </head>
 
 <body>
+
     <div id="app">
         <livewire:peminjam.kategori></livewire:peminjam.kategori>
 
@@ -36,6 +37,8 @@
     </div>
 
     @livewireScripts
+    
+    @include('admin-lte.footer-user')
 </body>
 
 </html>

@@ -47,8 +47,8 @@ class Buku extends Component
         if (auth()->user()) {
             // Mendapatkan status peminjaman terakhir pengguna
             $lasPeminjaman = Peminjaman::where('peminjam_id', auth()->user()->id)
-            ->latest()
-            ->first();
+                ->latest()
+                ->first();
 
             //Jika ada peminjaman sebelumnya
             if ($lasPeminjaman) {
@@ -71,7 +71,11 @@ class Buku extends Component
                     ->get();
 
                 // Cek jumlah maksimal peminjaman berdasarkan kategori buku
-                $max_limit = in_array($buku->kategori_id, [2, 6]) ? 2 : 16;
+                if ($buku->kategori_id == 2 || $buku->kategori_id == 6) {
+                    $max_limit = 2; // Novel dan komik memiliki batas 2
+                } else {
+                    $max_limit = 4; // Kategori lain memiliki batas 5
+                }
 
                 // cek jumlah maksimal 2
                 if ($peminjaman_lama->count() == $max_limit) {
@@ -133,9 +137,9 @@ class Buku extends Component
     {
         if ($this->pilih_kategori) {
             if ($this->search) {
-                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->where('kategori_id', $this->kategori_id)->paginate(12);
+                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->where('kategori_id', $this->kategori_id)->paginate(5);
             } else {
-                $buku = ModelsBuku::latest()->where('kategori_id', $this->kategori_id)->paginate(12);
+                $buku = ModelsBuku::latest()->where('kategori_id', $this->kategori_id)->paginate(5);
             }
             $title = Kategori::find($this->kategori_id)->nama;
         } elseif ($this->detail_buku) {
@@ -144,9 +148,9 @@ class Buku extends Component
         } else {
             //masih belum berfungsi dengan baik search nya
             if ($this->search) {
-                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->paginate(12);
+                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->paginate(5);
             } else {
-                $buku = ModelsBuku::latest()->paginate(12);
+                $buku = ModelsBuku::latest()->paginate(5);
             }
             $title = 'Semua Buku';
         }

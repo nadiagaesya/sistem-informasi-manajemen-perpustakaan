@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row">
+    <div class="row" style="margin-top:70px;">
         <div class="col-md-12 text-center">
             <div class="text" style="font-weight:bold; font-size:18px;">
                 <p>Keranjang Buku</p>
@@ -97,16 +97,13 @@
                 </tbody>
             </table>
             @if (!$keranjang->tanggal_pinjam)
-                @foreach ($keranjang->detail_peminjaman as $item)
-                    @if (
-                        $item->peminjaman->status == 5 ||
-                            $item->peminjaman->status == 1 ||
-                            $item->peminjaman->status == 4 ||
-                            $item->peminjaman->status == 0)
-                        <!-- Tombol hapus muncul jika status peminjaman adalah didalam keranjang (5) atau antrian pinjam (1) atau selesai dipinjam (4) -->
-                        <button wire:click="hapusMasal" class="btn btn-sm btn-danger">Hapus Masal</button>
-                    @endif
-                @endforeach
+                @php
+                    $itemsToDelete = $keranjang->detail_peminjaman->where('peminjaman.status', '!=', 2);
+                @endphp
+                @if ($itemsToDelete->isNotEmpty())
+                    <!-- Tombol hapus muncul jika status peminjaman adalah didalam keranjang (5) atau antrian pinjam (1) atau selesai dipinjam (4) -->
+                    <button wire:click="hapusMasal" class="btn btn-sm btn-danger">Hapus Masal</button>
+                @endif
             @endif
         </div>
     </div>
@@ -123,6 +120,8 @@
     <div class="row">
         <div class="col-md-12">
             <a href="/" class="btn btn-primary mt-5" style="float: right;">Kembali</a>
+
+            {{-- <button wire:click="reset" class="btn btn-primary mt-5" style="float: right; margin-right:10px;">Reset</button> --}}
         </div>
     </div>
 

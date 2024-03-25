@@ -5,12 +5,12 @@
         @include('admin-lte.flash')
 
         <div class="btn-group mb-3">
-            <button wire:click="format" class="btn btn-sm bg-teal mr-2">Semua</button>
-            <button wire:click="belumDipinjam" class="btn btn-sm bg-indigo mr-2">Antrian Peminjaman</button>
-            <button wire:click="antrianPerpanjang" class="btn btn-sm bg-lightblue mr-2">Antrian Perpanjang</button>
+            <button wire:click="format" class="btn btn-sm bg-olive mr-2">Semua</button>
+            <button wire:click="belumDipinjam" class="btn btn-sm bg-olive mr-2">Antrian Peminjaman</button>
+            {{-- <button wire:click="antrianPerpanjang" class="btn btn-sm bg-lightblue mr-2">Antrian Perpanjang</button> --}}
             <button wire:click="sedangDipinjam" class="btn btn-sm bg-olive mr-2">Sedang Dipinjam</button>
-            <button wire:click="dalamKeranjang" class="btn btn-sm bg-indigo mr-2">Dalam Keranjang</button>
-            <button wire:click="selesaiDipinjam" class="btn btn-sm bg-fuchsia mr-2">Selesai Dipinjam</button>
+            <button wire:click="dalamKeranjang" class="btn btn-sm bg-olive mr-2">Dalam Keranjang</button>
+            <button wire:click="selesaiDipinjam" class="btn btn-sm bg-olive mr-2">Selesai Dipinjam</button>
         </div>
 
         <div class="card">
@@ -18,6 +18,29 @@
                 {{-- @if ($belum_dipinjam || $sedang_dipinjam || $selesai_dipinjam)
                     <span wire:click="showCreateFormRak" class="btn btn-sm btn-primary">Tambah</span>
                 @endif --}}
+                <div class="card-tools" style="float: left;">
+                    <div class="input-group input-group-sm" style="width: 200px;">
+                        <select wire:model="bulan" class="form-control">
+                            <option value="">Pilih Bulan</option>
+                            <option value="01">Januari</option>
+                            <option value="02">Februari</option>
+                            <option value="03">Maret</option>
+                            <option value="04">April</option>
+                            <option value="05">Mei</option>
+                            <option value="06">Juni</option>
+                            <option value="07">Juli</option>
+                            <option value="08">Agustus</option>
+                            <option value="09">September</option>
+                            <option value="10">Oktober</option>
+                            <option value="11">November</option>
+                            <option value="12">Desember</option>
+                            <!-- Tambahkan opsi bulan lainnya sesuai kebutuhan -->
+                        </select>
+                        <div class="input-group-append">
+                            <button wire:click="submit" type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="card-tools">
                     <div class="input-group input-group-sm" style="width: 150px;">
@@ -55,7 +78,7 @@
                             @foreach ($transaksi as $item)
                                 <tr>
                                     <td>{{ $loop->iteration }}</td>
-                                    <td>{{ $item->user->name }}</td>
+                                    <td>{{ optional($item->user)->name }}</td>
                                     <td>{{ $item->kode_pinjam }}</td>
                                     <td>
                                         <ul>
@@ -67,9 +90,6 @@
                                     <td>
                                         <ul>
                                             @foreach ($item->detail_peminjaman as $detail_peminjaman)
-                                                {{-- <li>Rak : {{ $detail_peminjaman->buku->rak->rak }}, Baris :
-                                                {{ $detail_peminjaman->buku->rak->baris }}</li> --}}
-                                                {{-- menggunakan Accesor --}}
                                                 <li>{{ $detail_peminjaman->buku->rak->lokasi }}</li>
                                             @endforeach
                                         </ul>
@@ -88,17 +108,17 @@
                                     <td>
                                         {{-- jika item status sama dengan 1 maka belum dipinjam --}}
                                         @if ($item->status == 1)
-                                            <span class="badge bg-indigo">Antrian Peminjaman</span>
-                                        @elseif ($item->status == 2)
-                                            <span class="badge bg-lightblue">Antrian Perpanjang</span>
+                                            <span class="badge bg-olive">Antrian Peminjaman</span>
+                                            {{-- @elseif ($item->status == 2)
+                                            <span class="badge bg-lightblue">Antrian Perpanjang</span> --}}
                                         @elseif ($item->status == 3)
                                             <span class="badge bg-olive">Sedang Dipinjam</span>
                                         @elseif ($item->status == 4)
-                                            <span class="badge bg-indigo">Selesai Dipinjam</span>
+                                            <span class="badge bg-olive">Selesai Dipinjam</span>
                                         @elseif ($item->status == 5)
-                                            <span class="badge bg-indigo">Kosong</span>
+                                            <span class="badge bg-olive">Kosong</span>
                                         @else
-                                            <span class="badge bg-fuchsia">Dalam Keranjang</span>
+                                            <span class="badge bg-olive">Dalam Keranjang</span>
                                         @endif
                                     </td>
                                     @if (!$selesai_dipinjam)
@@ -106,9 +126,9 @@
                                             @if ($item->status == 1)
                                                 <span wire:click="showPinjam({{ $item->id }})"
                                                     class="btn btn-sm btn-success mr-2">Setujui Pinjam</span>
-                                            @elseif ($item->status == 2)
+                                                {{-- @elseif ($item->status == 2)
                                                 <span wire:click="showPerpanjang({{ $item->id }})"
-                                                    class="btn btn-sm btn-dark mr-2">Setujui Perpanjang</span>
+                                                    class="btn btn-sm btn-dark mr-2">Setujui Perpanjang</span> --}}
                                             @elseif ($item->status == 3)
                                                 <span wire:click="showKembali({{ $item->id }})"
                                                     class="btn btn-sm btn-primary mr-2">Kembalikan Buku</span>
@@ -125,6 +145,10 @@
                             @endforeach
                         </tbody>
                     </table>
+
+                    <div class="card-footer text-body-secondary p-2" style="text-align: end">
+                        <button wire:click="exportPeminjaman" class="btn btn-primary">Unduh Riwayat Peminjaman</button>
+                    </div>
                 </div>
                 <!-- /.card-body -->
             @endif

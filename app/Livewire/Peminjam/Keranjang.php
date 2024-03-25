@@ -86,6 +86,14 @@ class Keranjang extends Component
         }
     }
 
+    // public function reset()
+    // {
+    //     // Kosongkan variabel $keranjang
+    //     $this->keranjang = null;
+    //     // Tampilkan pesan sukses
+    //     session()->flash('sukses', 'Tabel berhasil direset.');
+    // }
+
     public function mount()
     {
         // kondisi ketika peminjam memiliki status peminjaman 3 (selesai dipinjam atau kosong) maka akan kembali ke halaman semula
@@ -98,6 +106,7 @@ class Keranjang extends Component
             return redirect()->to('/');
         }
     }
+
 
     public function render()
     {

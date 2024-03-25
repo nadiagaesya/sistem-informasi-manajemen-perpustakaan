@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+<nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm main-header fixed-top">
     <div class="container">
         <img src="{{ asset('asset/images/logo_sman6.jpeg') }}" alt="Logo" style="max-height: 35px; margin-right: 2px;">
         <a class="navbar-brand" href="{{ url('/') }}" style="font-size: 16px; display: flex; flex-direction: column;">
