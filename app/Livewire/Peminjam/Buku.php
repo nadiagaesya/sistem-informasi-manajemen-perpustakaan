@@ -19,6 +19,8 @@ class Buku extends Component
 
     public $kategori_id, $pilih_kategori, $buku_id, $detail_buku, $search;
 
+    public $kategori;
+
     public function pilihKategori($id)
     {
         $this->format();
@@ -133,6 +135,11 @@ class Buku extends Component
         $this->resetPage(); // Reset halaman ketika melakukan pencarian
     }
 
+    public function mount()
+    {
+        $this->kategori = Kategori::all();
+    }
+
     public function render()
     {
         if ($this->pilih_kategori) {
@@ -155,7 +162,11 @@ class Buku extends Component
             $title = 'Semua Buku';
         }
 
-        return view('livewire.peminjam.buku', compact('buku', 'title'));
+        return view('livewire.peminjam.buku', [
+            'buku' => $buku,
+            'title' => $title,
+            'kategori' => $this->kategori,
+        ]);
     }
 
     public function format()

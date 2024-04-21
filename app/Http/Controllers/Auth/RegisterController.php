@@ -31,6 +31,12 @@ class RegisterController extends Controller
      */
     protected $redirectTo = RouteServiceProvider::HOME;
 
+    protected $rules = [
+        'jenis' => 'required|in:guru,siswa,pegawai',
+        // Penambahan rules untuk jenis di sini
+    ];
+
+
     /**
      * Create a new controller instance.
      *
@@ -53,6 +59,7 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'kelas' => ['required', 'string'], // Validasi untuk kolom kelas
             'nisn_atau_nip' => ['required', 'string'], // Validasi untuk kolom NISN atau NIP
+            'jenis' => ['required', 'string', 'in:guru,siswa,pegawai'], //Validasi untuk field jenis
             'telepon' => ['required', 'string'], // Validasi untuk kolom telepon
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
@@ -71,6 +78,7 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'kelas' => $data['kelas'], // Menambahkan kolom kelas
             'nisn_atau_nip' => $data['nisn_atau_nip'], // Menambahkan kolom NISN atau NIP
+            'jenis' => $data['jenis'], // Menyimpan jenis yang dipilih
             'telepon' => $data['telepon'], // Menambahkan kolom telepon
             'email' => $data['email'],
             'password' => Hash::make($data['password']),

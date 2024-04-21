@@ -31,26 +31,6 @@
                             <a class="nav-link @yield('active-tamu')" href="/bukutamu">Tamu</a>
                         </li>
                     @endguest
-
-                    <!-- Tampilkan semua kategori hanya jika berada di halaman beranda -->
-                    @if (request()->is('/'))
-                        <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                Kategori
-                            </a>
-
-                            <div class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdown"
-                                style="cursor:pointer;">
-                                <a class="dropdown-item" wire:click="semuaKategori">Semua Kategori</a>
-                                <div class="dropdown-divider"> </div>
-                                @foreach ($kategori as $item)
-                                    <a class="dropdown-item"
-                                        wire:click="pilihKategori({{ $item->id }})">{{ $item->nama }}</a>
-                                @endforeach
-                            </div>
-                        </li>
-                    @endif
                 </ul>
             @endif
 
@@ -79,7 +59,7 @@
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            {{ Auth::user()->name }}
+                            {{ Auth::user()->name }} ({{ Auth::user()->jenis }})
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">

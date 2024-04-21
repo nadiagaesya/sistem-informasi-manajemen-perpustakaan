@@ -4,6 +4,7 @@ use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\CekRoleController;
 use App\Http\Controllers\Peminjam\BukuController as PeminjamBukuController;
 use App\Http\Controllers\Peminjam\KeranjangController;
+use App\Http\Controllers\Peminjam\RiwayatKeranjangController;
 use App\Http\Controllers\Peminjam\VisimisiController;
 use App\Http\Controllers\Petugas\KategoriController;
 use App\Http\Controllers\Petugas\RakController;
@@ -46,6 +47,7 @@ Route::middleware(['auth'])->group(function () {
     //role peminjam
     Route::middleware(['role:peminjam'])->group(function () {
         Route::get('/keranjang', KeranjangController::class);
+        Route::get('/riwayatkeranjang', RiwayatKeranjangController::class);
     });
 
     // role khusus admin

@@ -59,32 +59,32 @@ class Keranjang extends Component
         session()->flash('sukses', 'Buku berhasil diajukan pinjam. Silahkan refresh halaman ini');
     }
 
-    public function perpanjang(Peminjaman $keranjang)
-    {
-        // Periksa apakah tanggal pinjam sudah diisi
-        $this->validate();
-        if ($keranjang->status == 4) {
-            $tanggalKembaliBaru = Carbon::create($keranjang->tanggal_kembali)->addDays(10);
-            $tanggalPinjamBaru = Carbon::create($keranjang->tanggal_pinjam)->addDays(10);
-            $tanggalPengembalianBaru = null;
-            $petugasKembaliBaru = null;
-            $statusBaru = null;
+    // public function perpanjang(Peminjaman $keranjang)
+    // {
+    //     // Periksa apakah tanggal pinjam sudah diisi
+    //     $this->validate();
+    //     if ($keranjang->status == 4) {
+    //         $tanggalKembaliBaru = Carbon::create($keranjang->tanggal_kembali)->addDays(10);
+    //         $tanggalPinjamBaru = Carbon::create($keranjang->tanggal_pinjam)->addDays(10);
+    //         $tanggalPengembalianBaru = null;
+    //         $petugasKembaliBaru = null;
+    //         $statusBaru = null;
 
-            $keranjang->update([
-                'status' => 2,
-                'tanggal_pinjam' => $tanggalPinjamBaru,
-                'tanggal_kembali' => $tanggalKembaliBaru,
-                'tanggal_pengembalian' => $tanggalPengembalianBaru,
-                'petugas_kembali' => $petugasKembaliBaru,
+    //         $keranjang->update([
+    //             'status' => 2,
+    //             'tanggal_pinjam' => $tanggalPinjamBaru,
+    //             'tanggal_kembali' => $tanggalKembaliBaru,
+    //             'tanggal_pengembalian' => $tanggalPengembalianBaru,
+    //             'petugas_kembali' => $petugasKembaliBaru,
 
-            ]);
-            // Tampilkan pesan sukses
-            session()->flash('sukses', 'Perpanjangan berhasil dilakukan. Silahkan refresh halaman ini');
-        } else {
-            // Tampilkan pesan kesalahan jika peminjaman tidak dapat diperpanjang
-            session()->flash('gagal', 'Peminjaman tidak dapat diperpanjang.');
-        }
-    }
+    //         ]);
+    //         // Tampilkan pesan sukses
+    //         session()->flash('sukses', 'Perpanjangan berhasil dilakukan. Silahkan refresh halaman ini');
+    //     } else {
+    //         // Tampilkan pesan kesalahan jika peminjaman tidak dapat diperpanjang
+    //         session()->flash('gagal', 'Peminjaman tidak dapat diperpanjang.');
+    //     }
+    // }
 
     // public function reset()
     // {
@@ -110,13 +110,8 @@ class Keranjang extends Component
 
     public function render()
     {
-        $riwayatPeminjaman = Peminjaman::where('status', 4)
-            ->where('peminjam_id', auth()->user()->id)
-            ->get();
-
         return view('livewire.peminjam.keranjang', [
             'keranjang' => $this,
-            'riwayatPeminjaman' => $riwayatPeminjaman
         ]);
     }
 }

@@ -132,33 +132,33 @@ class Transaksi extends Component
     {
         if ($this->search) {
             if ($this->belum_dipinjam) {
-                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', 1)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', 1)->paginate(5);
             } elseif ($this->antrian_perpanjang) {
-                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', 2)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', 2)->paginate(5);
             } elseif ($this->sedang_dipinjam) {
-                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', 3)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', 3)->paginate(5);
             } elseif ($this->selesai_dipinjam) {
-                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', 4)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', 4)->paginate(5);
             } elseif ($this->dalam_keranjang) {
-                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', 0)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', 0)->paginate(5);
             } else {
-                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', '!=', 5)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', '!=', 5)->paginate(5);
             }
         } elseif ($this->bulan) {
-            $transaksi = Peminjaman::latest()->whereMonth('tanggal_pinjam', $this->bulan)->paginate(2);
+            $transaksi = Peminjaman::latest()->whereMonth('tanggal_pinjam', $this->bulan)->paginate(5);
         } else {
             if ($this->belum_dipinjam) {
-                $transaksi = Peminjaman::latest()->where('status', 1)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('status', 1)->paginate(5);
             } elseif ($this->antrian_perpanjang) {
-                $transaksi = Peminjaman::latest()->where('status', 2)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('status', 2)->paginate(5);
             } elseif ($this->sedang_dipinjam) {
-                $transaksi = Peminjaman::latest()->where('status', 3)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('status', 3)->paginate(5);
             } elseif ($this->selesai_dipinjam) {
-                $transaksi = Peminjaman::latest()->where('status', 4)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('status', 4)->paginate(5);
             } elseif ($this->dalam_keranjang) {
-                $transaksi = Peminjaman::latest()->where('status', 0)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('status', 0)->paginate(5);
             } else {
-                $transaksi = Peminjaman::latest()->where('status', '!=', 5)->paginate(2);
+                $transaksi = Peminjaman::latest()->where('status', '!=', 5)->paginate(5);
             }
         }
 
@@ -183,8 +183,8 @@ class Transaksi extends Component
 
     public function format()
     {
-        $this->sedang_dipinjam = false;
         $this->belum_dipinjam = false;
+        $this->sedang_dipinjam = false;
         $this->dalam_keranjang = false;
         $this->selesai_dipinjam = false;
         $this->antrian_perpanjang = false;

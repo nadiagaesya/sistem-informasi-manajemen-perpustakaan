@@ -15,12 +15,13 @@
 
         <div class="card">
             <div class="card-header">
-                {{-- @if ($belum_dipinjam || $sedang_dipinjam || $selesai_dipinjam)
+                {{-- @if ($belum_dipinjam || $sedang_dipinjam || $selesai_dipinjam || $dalam_keranjang)
                     <span wire:click="showCreateFormRak" class="btn btn-sm btn-primary">Tambah</span>
                 @endif --}}
+                {{-- untuk memfilter berdasarkan bulan --}}
                 <div class="card-tools" style="float: left;">
                     <div class="input-group input-group-sm" style="width: 200px;">
-                        <select wire:model="bulan" class="form-control">
+                        {{-- <select wire:model="bulan" class="form-control">
                             <option value="">Pilih Bulan</option>
                             <option value="01">Januari</option>
                             <option value="02">Februari</option>
@@ -35,9 +36,9 @@
                             <option value="11">November</option>
                             <option value="12">Desember</option>
                             <!-- Tambahkan opsi bulan lainnya sesuai kebutuhan -->
-                        </select>
+                        </select> --}}
                         <div class="input-group-append">
-                            <button wire:click="submit" type="submit" class="btn btn-primary">Submit</button>
+                            <button wire:click="submit" type="submit" class="btn btn-primary">Tambah</button>
                         </div>
                     </div>
                 </div>
@@ -146,9 +147,9 @@
                         </tbody>
                     </table>
 
-                    <div class="card-footer text-body-secondary p-2" style="text-align: end">
+                    {{-- <div class="card-footer text-body-secondary p-2" style="text-align: end">
                         <button class="btn btn-primary">Unduh Riwayat Peminjaman</button>
-                    </div>
+                    </div> --}}
                 </div>
                 <!-- /.card-body -->
             @endif

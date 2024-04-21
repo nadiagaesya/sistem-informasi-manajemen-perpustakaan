@@ -64,6 +64,30 @@
                                 </div>
                             </div>
 
+                            {{-- Tambahkan piliahan jenis guru, siswa, pegawai --}}
+                            <div class="row mb-3">
+                                <label for="jenis"
+                                    class="col-md-4 col-form-label text-md-start">{{ __('Jenis') }}</label>
+
+                                <div class="col-md-6">
+                                    <select id="jenis" class="form-control @error('jenis') is-invalid @enderror"
+                                        name="jenis" required>
+                                        <option value="guru" {{ old('jenis') == 'guru' ? 'selected' : '' }}>Pilih Role</option>
+                                        <option value="guru" {{ old('jenis') == 'guru' ? 'selected' : '' }}>Guru</option>
+                                        <option value="siswa" {{ old('jenis') == 'siswa' ? 'selected' : '' }}>Siswa
+                                        </option>
+                                        <option value="pegawai" {{ old('jenis') == 'pegawai' ? 'selected' : '' }}>Pegawai
+                                        </option>
+                                    </select>
+
+                                    @error('jenis')
+                                        <span class="invalid-feedback" jenis="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+                            </div>
+
                             <div class="row mb-3">
                                 <label for="telepon"
                                     class="col-md-4 col-form-label text-md-start">{{ __('Telepon') }}</label>
