@@ -21,7 +21,7 @@
                 {{-- untuk memfilter berdasarkan bulan --}}
                 <div class="card-tools" style="float: left;">
                     <div class="input-group input-group-sm" style="width: 200px;">
-                        {{-- <select wire:model="bulan" class="form-control">
+                        <select wire:model="bulan" class="form-control">
                             <option value="">Pilih Bulan</option>
                             <option value="01">Januari</option>
                             <option value="02">Februari</option>
@@ -36,9 +36,9 @@
                             <option value="11">November</option>
                             <option value="12">Desember</option>
                             <!-- Tambahkan opsi bulan lainnya sesuai kebutuhan -->
-                        </select> --}}
+                        </select>
                         <div class="input-group-append">
-                            <button wire:click="submit" type="submit" class="btn btn-primary">Tambah</button>
+                            <button wire:click="submit" type="submit" class="btn btn-primary">Cari</button>
                         </div>
                     </div>
                 </div>
@@ -147,9 +147,11 @@
                         </tbody>
                     </table>
 
-                    {{-- <div class="card-footer text-body-secondary p-2" style="text-align: end">
-                        <button class="btn btn-primary">Unduh Riwayat Peminjaman</button>
-                    </div> --}}
+                    <div class="btn-group mb-3">
+                        <!-- Tombol filter lainnya -->
+                        <button wire:click="downloadExcel" class="btn btn-sm bg-olive mr-2">Download Excel</button>
+                    </div>
+
                 </div>
                 <!-- /.card-body -->
             @endif

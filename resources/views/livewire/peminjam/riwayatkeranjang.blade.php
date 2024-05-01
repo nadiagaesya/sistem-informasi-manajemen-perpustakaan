@@ -64,6 +64,38 @@
                                 </tr>
                             </thead>
 
+                            <tbody>
+                                @foreach ($peminjamans as $index => $peminjaman)
+                                    <tr class="odd">
+                                        <td class="text-center">{{ $loop->iteration }}</td>
+                                        <td class="text-center">{{ $peminjaman->kode_pinjam }}</td>
+                                        <td class="text-center">
+                                            <ul>
+                                                @foreach ($peminjaman->detail_peminjaman as $detailPeminjaman)
+                                                    <li>{{ $detailPeminjaman->buku->judul }}</li>
+                                                @endforeach
+                                            </ul>
+                                        </td>
+                                        <td class="text-center">
+                                            <ul>
+                                                @foreach ($peminjaman->detail_peminjaman as $detailPeminjaman)
+                                                    <li>{{ $detailPeminjaman->buku->penulis }}</li>
+                                                @endforeach
+                                            </ul>
+                                        </td>
+                                        <td class="text-center">
+                                            @if ($peminjaman->status == 4)
+                                                Selesai Dipinjam
+                                            @endif
+                                        </td>
+                                        <td class="text-center">{{ $peminjaman->denda }}</td>
+                                        <td class="text-center">{{ $peminjaman->tanggal_pinjam }}</td>
+                                        <td class="text-center">{{ $peminjaman->tanggal_pengembalian }}</td>
+                                    </tr>
+                                @endforeach
+                            </tbody>
+
+
                             {{-- <tbody>
                                 @foreach ($riwayatPeminjaman as $peminjaman)
                                     <tr class="odd">
@@ -129,7 +161,7 @@
                         </div> --}}
                     </div>
                 </div>
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-sm-12 col-md-5">
                         <div class="dataTables_info" id="datatables_info" role="status" aria-live="polite">
                             Menampilkan
@@ -147,7 +179,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

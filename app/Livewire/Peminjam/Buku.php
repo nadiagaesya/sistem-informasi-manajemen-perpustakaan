@@ -66,21 +66,12 @@ class Buku extends Component
 
                 $peminjaman_lama = DB::table('peminjaman')
                     ->join('detail_peminjaman', 'peminjaman.id', '=', 'detail_peminjaman.peminjaman_id')
-                    ->join('buku', 'buku.id', '=', 'detail_peminjaman.buku_id')
                     ->where('peminjam_id', auth()->user()->id)
-                    ->whereIn('buku.kategori_id', [2, 6]) // kategori novel (2) dan komik (6)
                     ->where('status', '!-', 4) //sebelumnya ->where('status', '!-', 3)
                     ->get();
 
-                // Cek jumlah maksimal peminjaman berdasarkan kategori buku
-                if ($buku->kategori_id == 2 || $buku->kategori_id == 6) {
-                    $max_limit = 2; // Novel dan komik memiliki batas 2
-                } else {
-                    $max_limit = 4; // Kategori lain memiliki batas 5
-                }
-
                 // cek jumlah maksimal 2
-                if ($peminjaman_lama->count() == $max_limit) {
+                if ($peminjaman_lama->count() == 16) {
 
                     session()->flash('gagal', 'Peminjaman buku kategori ini telah mencapai batas maksimum.');
                 } else {
@@ -102,7 +93,7 @@ class Buku extends Component
                     } else {
 
                         // buku tidak boleh sama
-                        if ($peminjaman_lama[0]->buku_id == $buku->id) {
+                        if ($peminjaman_lama->pluck('buku_id')->contains($buku->id)) {
                             session()->flash('gagal', 'Buku tidak boleh sama');
                         } else {
 
@@ -144,9 +135,9 @@ class Buku extends Component
     {
         if ($this->pilih_kategori) {
             if ($this->search) {
-                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->where('kategori_id', $this->kategori_id)->paginate(5);
+                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->where('kategori_id', $this->kategori_id)->paginate(8);
             } else {
-                $buku = ModelsBuku::latest()->where('kategori_id', $this->kategori_id)->paginate(5);
+                $buku = ModelsBuku::latest()->where('kategori_id', $this->kategori_id)->paginate(8);
             }
             $title = Kategori::find($this->kategori_id)->nama;
         } elseif ($this->detail_buku) {
@@ -155,9 +146,9 @@ class Buku extends Component
         } else {
             //masih belum berfungsi dengan baik search nya
             if ($this->search) {
-                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->paginate(5);
+                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->paginate(8);
             } else {
-                $buku = ModelsBuku::latest()->paginate(5);
+                $buku = ModelsBuku::latest()->paginate(8);
             }
             $title = 'Semua Buku';
         }

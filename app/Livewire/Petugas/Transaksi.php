@@ -2,10 +2,13 @@
 
 namespace App\Livewire\Petugas;
 
+use App\Exports\TransaksiExport;
 use App\Models\Peminjaman;
 use Carbon\Carbon;
 use Livewire\Component;
 use Livewire\WithPagination;
+
+use Maatwebsite\Excel\Facades\Excel;
 
 class Transaksi extends Component
 {
@@ -127,6 +130,11 @@ class Transaksi extends Component
         $this->render(); // Memperbarui tampilan Livewire setelah logika diterapkan
     }
 
+    // Fungsi untuk mengunduh data ke Excel
+    public function downloadExcel()
+    {
+        return Excel::download(new TransaksiExport(), 'transaksi.xlsx');
+    }
 
     public function render()
     {
