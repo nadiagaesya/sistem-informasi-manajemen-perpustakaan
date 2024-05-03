@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Login')
 
 @section('content')
     <div class="container rounded rounded-sm bg-white shadow">

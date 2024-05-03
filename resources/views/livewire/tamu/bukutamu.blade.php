@@ -100,6 +100,7 @@
                 </tbody>
             </table>
 
+
             <div class="row">
                 <div class="col-lg-6 col-lg-6 col-md-6 col-sm-6">
                     <strong>
@@ -108,7 +109,8 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <strong>
-                        <p class="text" style="font-size: 14px; font-weight:bold; text-align: right;">Pengunjung : {{ $jumlahPengunjungHariIni }}
+                        <p class="text" style="font-size: 14px; font-weight:bold; text-align: right;">Pengunjung :
+                            {{ $jumlahPengunjungHariIni }}
                         </p>
                     </strong>
                 </div>

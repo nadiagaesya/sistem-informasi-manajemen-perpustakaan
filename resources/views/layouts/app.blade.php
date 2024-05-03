@@ -8,7 +8,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <!-- Menampilkan logo di dalam bagian head -->
+    {{-- <img src="{{ asset(env('APP_LOGO_PATH')) }}" alt="Logo"> --}}
+
+    <!-- nama aplikasi -->
+    <title>{{ config('app.name', 'Laravel') }} | @yield('title')</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
@@ -38,7 +42,7 @@
     </div>
 
     @livewireScripts
-    
+
     @include('admin-lte.footer-user')
 </body>
 
