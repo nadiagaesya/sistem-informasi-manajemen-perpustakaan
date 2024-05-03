@@ -42,6 +42,7 @@ class Kategori extends Component
     {
         $this->count -= 1;
     }
+    
 
     public function render()
     {
