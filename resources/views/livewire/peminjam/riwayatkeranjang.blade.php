@@ -111,7 +111,7 @@
                         </table>
 
                         <div class="col-lg-12 col-md-12 col-sm-12">
-                            <a href="/keranjang" class="btn btn-sm btn-primary" style="float: right;">Kembali</a>
+                            <a href="/keranjang" class="btn btn-sm btn-primary" style="float: left;">Kembali</a>
                         </div>
 
                     </div>
