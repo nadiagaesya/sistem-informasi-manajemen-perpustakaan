@@ -5,12 +5,12 @@
         @include('admin-lte.flash')
 
         <div class="btn-group mb-3">
-            <button wire:click="format" class="btn btn-sm bg-olive mr-2">Semua</button>
-            <button wire:click="belumDipinjam" class="btn btn-sm bg-olive mr-2">Antrian Peminjaman</button>
+            <button wire:click="format" class="btn btn-sm btn-primary mr-2">Semua</button>
+            <button wire:click="belumDipinjam" class="btn btn-sm btn-primary mr-2">Antrian Peminjaman</button>
             {{-- <button wire:click="antrianPerpanjang" class="btn btn-sm bg-lightblue mr-2">Antrian Perpanjang</button> --}}
-            <button wire:click="sedangDipinjam" class="btn btn-sm bg-olive mr-2">Sedang Dipinjam</button>
-            <button wire:click="dalamKeranjang" class="btn btn-sm bg-olive mr-2">Dalam Keranjang</button>
-            <button wire:click="selesaiDipinjam" class="btn btn-sm bg-olive mr-2">Selesai Dipinjam</button>
+            <button wire:click="sedangDipinjam" class="btn btn-sm btn-primary mr-2">Sedang Dipinjam</button>
+            <button wire:click="dalamKeranjang" class="btn btn-sm btn-primary mr-2">Dalam Keranjang</button>
+            <button wire:click="selesaiDipinjam" class="btn btn-sm btn-primary mr-2">Selesai Dipinjam</button>
         </div>
 
         <div class="card">
@@ -149,7 +149,8 @@
 
                     <div class="btn-group mb-3">
                         <!-- Tombol filter lainnya -->
-                        <button wire:click="downloadExcel" class="btn btn-sm bg-olive mr-2">Download Excel</button>
+                        <button wire:click="downloadExcel" class="btn btn-sm btn-primary"
+                            style="margin-left: 20px;">Download Excel</button>
                     </div>
 
                 </div>

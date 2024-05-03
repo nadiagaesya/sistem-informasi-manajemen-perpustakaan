@@ -23,7 +23,7 @@
                         <a class="nav-link @yield('active-visimisi')" href="/visimisi">Visi & Misi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/tata-tertib">Tata Tertib</a>
+                        <a class="nav-link @yield('active-tata-tertib')" href="/tata-tertib">Tata Tertib</a>
                     </li>
                     @guest
                         <!-- Tautan Buku Tamu hanya muncul jika pengguna belum login -->
