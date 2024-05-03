@@ -9,6 +9,7 @@ use Livewire\Component;
 class RiwayatKeranjang extends Component
 {
     public $peminjamans;
+    public $total_buku;
 
     public function mount()
     {
@@ -23,6 +24,11 @@ class RiwayatKeranjang extends Component
             ->where('peminjaman.peminjam_id', $peminjam_id)
             ->where('peminjaman.status', 4) // Menambahkan kondisi status peminjaman
             ->get();
+
+        // Iterasi melalui setiap peminjaman untuk menghitung jumlah buku dan menyimpannya di dalam objek peminjaman
+        foreach ($this->peminjamans as $peminjaman) {
+            $peminjaman->total_buku = count($peminjaman->detail_peminjaman);
+        }
     }
 
     public function render()

@@ -12,6 +12,7 @@ class Keranjang extends Component
 {
     public $keranjang;
     public $tanggal_pinjam;
+    public $total_buku;
 
     protected $rules = [
         'tanggal_pinjam' => 'required|date|after_or_equal:today',
@@ -105,8 +106,10 @@ class Keranjang extends Component
         if (!$this->keranjang) {
             return redirect()->to('/');
         }
-    }
 
+        // Hitung jumlah total buku dalam keranjang
+        $this->total_buku = $this->keranjang->detail_peminjaman->count();
+    }
 
     public function render()
     {

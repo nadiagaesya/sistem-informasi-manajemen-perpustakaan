@@ -52,8 +52,12 @@
                 @else
                     @if ($count >= 0)
                         <li class="nav-item">
-                            <a class="nav-link" href="/keranjang"> Keranjang <span
-                                    class="badge text-bg-primary">{{ $count }}</span></a>
+                            {{-- yang baru --}}
+                            <a class="nav-link" href="/keranjang"> Keranjang </a>
+
+                            {{-- yang lama --}}
+                            {{-- <a class="nav-link" href="/keranjang"> Keranjang <span
+                                    class="badge text-bg-primary">{{ $count }}</span></a> --}}
                         </li>
                     @endif
                     <li class="nav-item dropdown">

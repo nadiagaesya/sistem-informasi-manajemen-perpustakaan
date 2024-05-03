@@ -16,11 +16,12 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 mb-4">
                     <label for="tanggal_pinjam" style="font-weight: bold;">Tanggal Pinjam</label>
-                    <a href="/riwayatkeranjang" style="float: right">Riwayat Pinjam</a>
+                    <strong class="float-end">Kode Pinjam : {{ $keranjang->kode_pinjam }}</strong>
                     <input wire:model="tanggal_pinjam" type="date" class="form-control" id="tanggal_pinjam">
                     @error('tanggal_pinjam')
                         <small class="text-danger">{{ $message }}</small>
                     @enderror
+
                 </div>
             </div>
             <div class="row">
@@ -32,7 +33,8 @@
                         <button wire:click="pinjam({{ $keranjang->id }})" class="btn btn-sm btn-success mb-2">+ Usulkan
                             Peminjaman</button>
                     @endif
-                    <strong class="float-end">Kode Pinjam : {{ $keranjang->kode_pinjam }}</strong>
+                    <a href="/riwayatkeranjang" style="float: right"
+                        class="btn btn-sm btn-success mb-2 text-white">Riwayat Pinjam</a>
                 </div>
             </div>
             <div class="row">
@@ -90,9 +92,6 @@
                                     @endif
                                 @endif --}}
 
-
-
-
                                 @if ($keranjang->tanggal_pinjam)
                                     <th class="text-center sorting" scope="col" tabindex="0"
                                         aria-controls="datatables" rowspan="1" colspan="1"
@@ -147,6 +146,13 @@
                                     </td>
                                 </tr>
                             @endforeach
+
+                            <div class="row">
+                                <div class="col-md-12 mb-2">
+                                    <strong class="float-start">Total Buku: {{ $total_buku }}</strong>
+                                </div>
+                            </div>
+
                         </tbody>
                     </table>
 
@@ -184,58 +190,4 @@
             @endif
         </div>
     </div>
-
-    {{-- <div class="row">
-        <div class="col-md-12 text-center">
-            <div class="text" style="margin-top:50px; font-weight:bold; font-size:18px;">
-                <p>Riwayat Peminjaman</p>
-            </div>
-            <table class="table table-hover text-nowrap mt-4"
-                style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); border-radius: 10px;
-                            overflow: hidden;">
-                <thead>
-                    <tr class="table-primary">
-                        <th>No</th>
-                        <th>Kode Pinjam</th>
-                        <th>Judul</th>
-                        <th>Penulis</th>
-                        <th>Status</th>
-                        <th>Denda</th>
-                        <th>Tanggal Pinjam</th>
-                        <th>Tanggal Pengembalian</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach ($riwayatPeminjaman as $peminjaman)
-                        <tr>
-                            <td>{{ $loop->iteration }}</td>
-                            <td>{{ $peminjaman->kode_pinjam }}</td>
-                            <td>
-                                <ul>
-                                    @foreach ($peminjaman->detail_peminjaman as $detailPeminjaman)
-                                        <li>{{ $detailPeminjaman->buku->judul }}</li>
-                                    @endforeach
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    @foreach ($peminjaman->detail_peminjaman as $detailPeminjaman)
-                                        <li>{{ $detailPeminjaman->buku->penulis }}</li>
-                                    @endforeach
-                                </ul>
-                            </td>
-                            <td>
-                                @if ($peminjaman->status == 4)
-                                    Selesai Dipinjam
-                                @endif
-                            </td>
-                            <td>{{ $peminjaman->denda }}</td>
-                            <td>{{ $peminjaman->tanggal_pinjam }}</td>
-                            <td>{{ $peminjaman->tanggal_pengembalian }}</td>
-                        </tr>
-                    @endforeach
-                </tbody>
-            </table>
-        </div>
-    </div> --}}
 </div>
