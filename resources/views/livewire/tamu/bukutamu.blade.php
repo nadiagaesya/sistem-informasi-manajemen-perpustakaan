@@ -51,17 +51,16 @@
     </div>
 
     <div class="row justify-content-center" style="margin-top: 50px;">
-        {{-- untuk menampilkan tgl today dan jumlah pengunjung di hari ini --}}
         <div class="col-md-8">
-            <div class="input-group">
+            <div class="input-group mb-2">
                 <div class="input-group-prepend">
-                    {{-- <p style="font-size: 16px; font-weight:bold;">Hari ini : {{ now()->format('d-m-Y') }}</p> --}}
-                    {{-- <span>Pengunjung :{{ $jumlahPengunjungHariIni }}</span> --}}
+                    <div class="col-lg-12">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="input-group mb-2">
+            <div class="input-group mb-4">
                 <input wire:model="search" type="text" class="form-control" id="search"
                     placeholder="Cari Pengunjung">
                 <div class="input-group-prepend">
@@ -100,6 +99,22 @@
                     @endforeach
                 </tbody>
             </table>
+
+
+            <div class="row">
+                <div class="col-lg-6 col-lg-6 col-md-6 col-sm-6">
+                    <strong>
+                        <p style="font-size: 14px; font-weight:bold;">Hari ini : {{ now()->format('d-m-Y') }}</p>
+                    </strong>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <strong>
+                        <p class="text" style="font-size: 14px; font-weight:bold; text-align: right;">Pengunjung :
+                            {{ $jumlahPengunjungHariIni }}
+                        </p>
+                    </strong>
+                </div>
+            </div>
         </div>
     </div>
 </div>

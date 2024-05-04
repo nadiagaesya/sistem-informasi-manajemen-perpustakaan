@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('kelas');
             $table->bigInteger('nisn_atau_nip')->unsigned(); // Menggunakan bigInteger untuk NISN atau NIP
+            $table->string('jenis')->default('siswa'); // Tambahkan kolom jenis di sini
             $table->bigInteger('telepon')->unsigned(); // Menggunakan bigInteger untuk telepon
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();

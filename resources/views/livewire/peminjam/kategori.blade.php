@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+<nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm main-header fixed-top">
     <div class="container">
         <img src="{{ asset('asset/images/logo_sman6.jpeg') }}" alt="Logo" style="max-height: 35px; margin-right: 2px;">
         <a class="navbar-brand" href="{{ url('/') }}" style="font-size: 16px; display: flex; flex-direction: column;">
@@ -23,7 +23,7 @@
                         <a class="nav-link @yield('active-visimisi')" href="/visimisi">Visi & Misi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/tata-tertib">Tata Tertib</a>
+                        <a class="nav-link @yield('active-tata-tertib')" href="/tata-tertib">Tata Tertib</a>
                     </li>
                     @guest
                         <!-- Tautan Buku Tamu hanya muncul jika pengguna belum login -->
@@ -31,26 +31,6 @@
                             <a class="nav-link @yield('active-tamu')" href="/bukutamu">Tamu</a>
                         </li>
                     @endguest
-
-                    <!-- Tampilkan semua kategori hanya jika berada di halaman beranda -->
-                    @if (request()->is('/'))
-                        <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                Kategori
-                            </a>
-
-                            <div class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdown"
-                                style="cursor:pointer;">
-                                <a class="dropdown-item" wire:click="semuaKategori">Semua Kategori</a>
-                                <div class="dropdown-divider"> </div>
-                                @foreach ($kategori as $item)
-                                    <a class="dropdown-item"
-                                        wire:click="pilihKategori({{ $item->id }})">{{ $item->nama }}</a>
-                                @endforeach
-                            </div>
-                        </li>
-                    @endif
                 </ul>
             @endif
 
@@ -72,14 +52,18 @@
                 @else
                     @if ($count >= 0)
                         <li class="nav-item">
-                            <a class="nav-link" href="/keranjang"> Keranjang <span
-                                    class="badge text-bg-primary">{{ $count }}</span></a>
+                            {{-- yang baru --}}
+                            <a class="nav-link" href="/keranjang"> Keranjang </a>
+
+                            {{-- yang lama --}}
+                            {{-- <a class="nav-link" href="/keranjang"> Keranjang <span
+                                    class="badge text-bg-primary">{{ $count }}</span></a> --}}
                         </li>
                     @endif
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            {{ Auth::user()->name }}
+                            {{ Auth::user()->name }} ({{ Auth::user()->jenis }})
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">

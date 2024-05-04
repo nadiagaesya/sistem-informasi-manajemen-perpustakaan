@@ -14,7 +14,7 @@ class KategoriSeeder extends Seeder
      */
     public function run(): void
     {
-        $kategori = ['none','novel', 'sejarah', 'religi', 'biografi', 'komik'];
+        $kategori = ['none','kelas X', 'kelas XI','kelas XII','novel', 'sejarah', 'religi', 'biografi', 'komik'];
 
         foreach ($kategori as $value) {
             Kategori::create([

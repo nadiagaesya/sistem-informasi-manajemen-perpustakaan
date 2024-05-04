@@ -42,13 +42,19 @@ class Bukutamu extends Component
         $this->format();
     }
 
+    // Fungsi untuk melakukan pencarian
+    public function searchData()
+    {
+        $this->render();
+    }
+
     public function render()
     {
         // Mendapatkan data tamu dari model Tamu
         $this->tamu = Tamu::all();
 
         // Mengambil data tamu berdasarkan pencarian
-        $this->tamu = Tamu::where('nama_lengkap', 'like', '%' . $this->search . '%')
+        $this->tamu = Tamu::latest()->where('nama_lengkap', 'like', '%' . $this->search . '%')
             ->orWhere('instansi', 'like', '%' . $this->search . '%')
             ->get();
 
@@ -62,11 +68,5 @@ class Bukutamu extends Component
     public function format()
     {
         unset($this->submit);
-    }
-
-    // Fungsi untuk melakukan pencarian
-    public function searchData()
-    {
-        $this->render();
     }
 }

@@ -8,7 +8,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <!-- Menampilkan logo di dalam bagian head -->
+    {{-- <img src="{{ asset(env('APP_LOGO_PATH')) }}" alt="Logo"> --}}
+
+    <!-- nama aplikasi -->
+    <title>{{ config('app.name', 'Laravel') }} | @yield('title')</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
@@ -22,12 +26,14 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="asset/css/allstyle.css">
 
     @livewireStyles
 </head>
 
 <body>
-    <div id="app">
+
+    <div id="app" style="margin-top: 60px;">
         <livewire:peminjam.kategori></livewire:peminjam.kategori>
 
         <main class="py-4">
@@ -36,6 +42,8 @@
     </div>
 
     @livewireScripts
+
+    @include('admin-lte.footer-user')
 </body>
 
 </html>

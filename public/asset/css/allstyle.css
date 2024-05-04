@@ -1,0 +1,48 @@
+        @media only screen and (max-width: 425px) {
+
+            .vl {
+                border-left: 2px solid green;
+                height: 100px;
+                margin-top: 20px;
+                padding-left: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            .vl {
+                border-left: 2px solid green;
+                height: 70px;
+                margin-top: 20px;
+                padding-left: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 992px) {
+
+            .vl {
+                border-left: 2px solid green;
+                height: 70px;
+                margin-top: 20px;
+                padding-left: 10px;
+            }
+
+        }
+
+        @media only screen and (min-width: 1024px) {
+
+            .vl {
+                border-left: 2px solid green;
+                height: 70px;
+                margin-top: 20px;
+                padding-left: 10px;
+            }
+
+            .form-control{
+                  border-color: darkgrey;
+            }
+
+            label{
+                  margin-bottom: 4px;
+            }
+        }

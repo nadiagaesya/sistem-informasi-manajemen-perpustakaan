@@ -1,18 +1,17 @@
 <?php
 
-namespace App\Http\Controllers\Petugas;
+namespace App\Http\Controllers\Peminjam;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class TransaksiController extends Controller
+class RiwayatKeranjangController extends Controller
 {
     /**
      * Handle the incoming request.
      */
     public function __invoke(Request $request)
     {
-        return view('petugas/transaksi/index');
+        return view('peminjam/riwayatkeranjang/index');
     }
-
 }

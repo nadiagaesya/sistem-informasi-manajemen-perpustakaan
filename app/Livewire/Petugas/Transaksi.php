@@ -7,6 +7,9 @@ use Carbon\Carbon;
 use Livewire\Component;
 use Livewire\WithPagination;
 
+use Maatwebsite\Excel\Facades\Excel;
+use App\Exports\PeminjamanExport;
+
 class Transaksi extends Component
 {
     use WithPagination;
@@ -14,6 +17,9 @@ class Transaksi extends Component
 
     public $belum_dipinjam, $sedang_dipinjam, $selesai_dipinjam, $dalam_keranjang, $antrian_perpanjang;
     public $search;
+    public $tanggal_pinjam;
+    public $keranjang;
+    public $bulan;
 
     protected $queryString = ['search'];
 
@@ -58,7 +64,7 @@ class Transaksi extends Component
 
         $peminjaman->update([
             'petugas' => auth()->user()->id,
-            'status' => 3
+            'status' => 3,
         ]);
 
         session()->flash('sukses', 'Buku berhasil dipinjam');
@@ -117,6 +123,18 @@ class Transaksi extends Component
         $this->resetPage(); // Reset halaman ketika melakukan pencarian
     }
 
+    public function submit()
+    {
+        // Logika untuk menampilkan riwayat peminjaman berdasarkan bulan
+        // Misalnya, Anda dapat mengubah query data untuk memfilter berdasarkan bulan
+        $this->render(); // Memperbarui tampilan Livewire setelah logika diterapkan
+    }
+
+    public function downloadExcel()
+    {
+        return Excel::download(new PeminjamanExport, 'peminjaman.xlsx');
+    }
+
     public function render()
     {
         if ($this->search) {
@@ -133,6 +151,8 @@ class Transaksi extends Component
             } else {
                 $transaksi = Peminjaman::latest()->where('kode_pinjam', 'like', '%' . $this->search . '%')->where('status', '!=', 5)->paginate(5);
             }
+        } elseif ($this->bulan) {
+            $transaksi = Peminjaman::latest()->whereMonth('tanggal_pinjam', $this->bulan)->paginate(5);
         } else {
             if ($this->belum_dipinjam) {
                 $transaksi = Peminjaman::latest()->where('status', 1)->paginate(5);
@@ -149,6 +169,14 @@ class Transaksi extends Component
             }
         }
 
+        // $query = Peminjaman::latest();
+
+        // if ($this->bulan) {
+        //     $transaksi = Peminjaman::latest()->whereMonth('tanggal_pinjam', $this->bulan)->paginate(5);
+        // }
+
+        // $transaksi = $query->paginate(5);
+
         return view('livewire.petugas.transaksi', [
             'transaksi' => $transaksi
 
@@ -162,8 +190,8 @@ class Transaksi extends Component
 
     public function format()
     {
-        $this->sedang_dipinjam = false;
         $this->belum_dipinjam = false;
+        $this->sedang_dipinjam = false;
         $this->dalam_keranjang = false;
         $this->selesai_dipinjam = false;
         $this->antrian_perpanjang = false;
