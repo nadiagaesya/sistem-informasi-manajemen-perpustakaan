@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
             'nisn_atau_nip' => '1234567890',
             'telepon' => '1234567890',
             'email' => 'admin@gmail.com',
-            'password' => bcrypt('123123123'),
+            'password' => bcrypt('1'),
             'email_verified_at' => now()
         ])->assignRole('admin');
 
@@ -29,7 +29,7 @@ class UserSeeder extends Seeder
             'nisn_atau_nip' => '89098909',
             'telepon' => '89098909',
             'email' => 'petugas@gmail.com',
-            'password' => bcrypt('123123123'),
+            'password' => bcrypt('1'),
             'email_verified_at' => now()
         ])->assignRole('petugas');
 
@@ -39,7 +39,7 @@ class UserSeeder extends Seeder
             'nisn_atau_nip' => '89878987',
             'telepon' => '89878987',
             'email' => 'peminjam@gmail.com',
-            'password' => bcrypt('123123123'),
+            'password' => bcrypt('1'),
             'email_verified_at' => now()
         ])->assignRole('peminjam');
 
@@ -49,7 +49,7 @@ class UserSeeder extends Seeder
             'nisn_atau_nip' => '6787678767',
             'telepon' => '6787678767',
             'email' => 'rezi@gmail.com',
-            'password' => bcrypt('123123123'),
+            'password' => bcrypt('1'),
             'email_verified_at' => now()
         ])->assignRole('peminjam');
 
@@ -59,7 +59,7 @@ class UserSeeder extends Seeder
             'nisn_atau_nip' => '5676556776',
             'telepon' => '081266378525',
             'email' => 'nadia@gmail.com',
-            'password' => bcrypt('123123123'),
+            'password' => bcrypt('1'),
             'email_verified_at' => now()
         ])->assignRole('peminjam');
 
@@ -69,7 +69,7 @@ class UserSeeder extends Seeder
             'nisn_atau_nip' => '12343234432',
             'telepon' => '12343234432',
             'email' => 'alya@gmail.com',
-            'password' => bcrypt('123123123'),
+            'password' => bcrypt('1'),
             'email_verified_at' => now()
         ])->assignRole('peminjam');
 
@@ -79,7 +79,7 @@ class UserSeeder extends Seeder
             'nisn_atau_nip' => '3454345435',
             'telepon' => '3454345435',
             'email' => 'ummu@gmail.com',
-            'password' => bcrypt('123123123'),
+            'password' => bcrypt('1'),
             'email_verified_at' => now()
         ])->assignRole('peminjam');
 
@@ -89,7 +89,7 @@ class UserSeeder extends Seeder
             'nisn_atau_nip' => '6787677876',
             'telepon' => '6787677876',
             'email' => 'wiwid@gmail.com',
-            'password' => bcrypt('123123123'),
+            'password' => bcrypt('1'),
             'email_verified_at' => now()
         ])->assignRole('peminjam');
 
