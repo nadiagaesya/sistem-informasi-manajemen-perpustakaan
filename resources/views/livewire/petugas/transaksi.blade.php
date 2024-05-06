@@ -6,7 +6,7 @@
 
         <div class="btn-group mb-3">
             <button wire:click="format" class="btn btn-sm btn-primary mr-2">Semua</button>
-            <button wire:click="belumDipinjam" class="btn btn-sm btn-primary mr-2">Antrian Peminjaman</button>
+            <button wire:click="belumDipinjam" class="btn btn-sm btn-primary mr-2">Antrian Pinjam</button>
             {{-- <button wire:click="antrianPerpanjang" class="btn btn-sm bg-lightblue mr-2">Antrian Perpanjang</button> --}}
             <button wire:click="sedangDipinjam" class="btn btn-sm btn-primary mr-2">Sedang Dipinjam</button>
             <button wire:click="dalamKeranjang" class="btn btn-sm btn-primary mr-2">Dalam Keranjang</button>
@@ -109,17 +109,15 @@
                                     <td>
                                         {{-- jika item status sama dengan 1 maka belum dipinjam --}}
                                         @if ($item->status == 1)
-                                            <span class="badge bg-olive">Antrian Peminjaman</span>
-                                            {{-- @elseif ($item->status == 2)
-                                            <span class="badge bg-lightblue">Antrian Perpanjang</span> --}}
+                                            <span class="badge bg-lightblue">Antrian Pinjam</span>
+                                        @elseif ($item->status == 2)
+                                            <span class="badge bg-lightblue">Dalam Keranjang</span>
                                         @elseif ($item->status == 3)
-                                            <span class="badge bg-olive">Sedang Dipinjam</span>
+                                            <span class="badge bg-lightblue">Sedang Dipinjam</span>
                                         @elseif ($item->status == 4)
-                                            <span class="badge bg-olive">Selesai Dipinjam</span>
-                                        @elseif ($item->status == 5)
-                                            <span class="badge bg-olive">Kosong</span>
+                                            <span class="badge bg-lightblue">Selesai Dipinjam</span>
                                         @else
-                                            <span class="badge bg-olive">Dalam Keranjang</span>
+                                            <span class="badge bg-lightblue">Tidak Ada Buku</span>
                                         @endif
                                     </td>
                                     @if (!$selesai_dipinjam)
@@ -158,8 +156,12 @@
             @endif
         </div>
         <!-- /.card -->
-        <div class="row justify-content-center">
-            {{ $transaksi->links() }}
+        <div class="row mt-3">
+            <div class="col-md-1 col-lg-1 col-sm-1"></div>
+            <div class="col-md-10 col-lg-10 col-sm-10">
+                {{ $transaksi->links() }}
+            </div>
+            <div class="col-md-1 col-lg-1 col-sm-1"></div>
         </div>
 
         @if ($transaksi->isEmpty())

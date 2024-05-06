@@ -67,8 +67,12 @@
             @endif
         </div>
         <!-- /.card -->
-        <div class="row justify-content-center">
-            {{ $raks->links() }}
+        <div class="row mt-3">
+            <div class="col-md-1 col-lg-1 col-sm-1"></div>
+            <div class="col-md-10 col-lg-10 col-sm-10">
+                {{ $raks->links() }}
+            </div>
+            <div class="col-md-1 col-lg-1 col-sm-1"></div>
         </div>
 
         @if ($raks->isEmpty())

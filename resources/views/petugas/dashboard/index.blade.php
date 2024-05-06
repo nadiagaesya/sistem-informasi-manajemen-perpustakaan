@@ -22,6 +22,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
                 <div class="inner">
+                    <!-- jumlah pengguna assignRole ->peminjam -->
                     <h3>{{ $count_user }}</h3>
 
                     <p>Peminjam</p>
@@ -64,15 +65,16 @@
     <!-- /.row -->
 
     {{-- menampilkan data pengunjung --}}
-    <div class="row my-4">
+    {{-- <div class="row my-4">
         <div class="col-md-12">
+            <p>Data Pengunjung Terbaru</p>
             <div class="card">
                 <div class="card-body">
                     <livewire:real-time-visitor />
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     {{-- batas --}}
 
     <div class="row">

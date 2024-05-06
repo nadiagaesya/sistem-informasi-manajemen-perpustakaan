@@ -61,8 +61,12 @@
         </div>
         <!-- /.card -->
 
-        <div class="row justify-content-center">
-            {{ $kategori->links() }}
+        <div class="row mt-3">
+            <div class="col-md-1 col-lg-1 col-sm-1"></div>
+            <div class="col-md-10 col-lg-10 col-sm-10">
+                {{ $kategori->links() }}
+            </div>
+            <div class="col-md-1 col-lg-1 col-sm-1"></div>
         </div>
 
         @if ($kategori->isEmpty())

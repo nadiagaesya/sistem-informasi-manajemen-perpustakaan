@@ -41,12 +41,34 @@ class PeminjamanExport implements FromCollection, WithHeadings, WithMapping, Sho
       }
       public function map($peminjaman): array
       {
+            $statusText = '';
+            switch ($peminjaman->status) {
+                  case 0:
+                        $statusText = "Tidak ada buku Dikeranjang";
+                        break;
+                  case 1:
+                        $statusText = "Antrian pinjam";
+                        break;
+                  case 2:
+                        $statusText = "Di dalam keranjang";
+                        break;
+                  case 3:
+                        $statusText = "Sedang dipinjam";
+                        break;
+                  case 4:
+                        $statusText = "Selesai dipinjam";
+                        break;
+                  default:
+                        $statusText = "Status tidak valid";
+                        break;
+            }
+
             return [
                   $peminjaman->kode_pinjam,
                   $peminjaman->name,
                   Carbon::parse($peminjaman->tanggal_pinjam)->format('d/m/Y'),
                   Carbon::parse($peminjaman->tanggal_kembali)->format('d/m/Y'),
-                  $peminjaman->status,
+                  $statusText,
                   $peminjaman->denda,
             ];
       }

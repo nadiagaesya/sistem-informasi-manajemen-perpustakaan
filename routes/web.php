@@ -13,6 +13,7 @@ use App\Http\Controllers\Petugas\PenerbitController;
 use App\Http\Controllers\Petugas\BukuController;
 use App\Http\Controllers\Petugas\ChartController;
 use App\Http\Controllers\Petugas\DashboardController;
+use App\Http\Controllers\Petugas\RealTimeVisitorController;
 use App\Http\Controllers\Petugas\TransaksiController;
 use App\Http\Controllers\Tamu\BukutamuController;
 use App\Models\Buku;
@@ -43,7 +44,7 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/penerbit', PenerbitController::class);
         Route::get('/buku', BukuController::class);
         Route::get('/transaksi', TransaksiController::class);
-        Route::get('/chart', ChartController::class);
+        Route::get('/visitor', RealTimeVisitorController::class);
     });
 
     //role peminjam

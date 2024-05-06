@@ -56,13 +56,13 @@ class TransaksiSeeder extends Seeder
         ]);
 
         //data 3 (antrian pinjam)
-        // Peminjaman::create([
-        //     'kode_pinjam' => random_int(100000000, 999999999),
-        //     'peminjam_id' => 5,
-        //     'status' => 1,
-        //     'tanggal_pinjam' => now()->addDays(10),
-        //     'tanggal_kembali' => now()->addDays(20)
-        // ]);
+        Peminjaman::create([
+            'kode_pinjam' => random_int(100000000, 999999999),
+            'peminjam_id' => 5,
+            'status' => 1,
+            'tanggal_pinjam' => now()->addDays(10),
+            'tanggal_kembali' => now()->addDays(20)
+        ]);
 
         DetailPeminjaman::create([
             'peminjaman_id' => 3,
@@ -74,28 +74,28 @@ class TransaksiSeeder extends Seeder
         ]);
 
         //data 4 (antrian perpanjang)
-        Peminjaman::create([
-            'kode_pinjam' => random_int(100000000, 999999999),
-            'peminjam_id' => 6,
-            'status' => 2,
-            'tanggal_pinjam' => now()->addDays(10),
-            'tanggal_kembali' => now()->addDays(20)
-        ]);
+        // Peminjaman::create([
+        //     'kode_pinjam' => random_int(100000000, 999999999),
+        //     'peminjam_id' => 6,
+        //     'status' => 2,
+        //     'tanggal_pinjam' => now()->addDays(10),
+        //     'tanggal_kembali' => now()->addDays(20)
+        // ]);
 
-        DetailPeminjaman::create([
-            'peminjaman_id' => 4,
-            'buku_id' => 6
-        ]);
-        DetailPeminjaman::create([
-            'peminjaman_id' => 4,
-            'buku_id' => 7
-        ]);
+        // DetailPeminjaman::create([
+        //     'peminjaman_id' => 4,
+        //     'buku_id' => 6
+        // ]);
+        // DetailPeminjaman::create([
+        //     'peminjaman_id' => 4,
+        //     'buku_id' => 7
+        // ]);
 
         //data 5 (didalam keranjang)
         Peminjaman::create([
             'kode_pinjam' => random_int(100000000, 999999999),
             'peminjam_id' => 7,
-            'status' => 5,
+            'status' => 2,
         ]);
 
         DetailPeminjaman::create([
