@@ -1,5 +1,5 @@
 @extends('admin-lte.app')
-@section('title', 'User')
+@section('title', 'Data Pengguna')
 @section('active-user', 'active')
 
 @section('content')

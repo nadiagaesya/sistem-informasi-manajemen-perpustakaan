@@ -114,7 +114,6 @@ class BukuSeeder extends Seeder
             'stok' => 311
         ]);
 
-
         Buku::create([
             'judul' => 'Seni Budaya Semester 1',
             'slug' => Str::slug('Seni-Budaya-Semester-1'),

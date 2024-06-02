@@ -34,7 +34,7 @@
                 <div class="card-tools">
                     <div class="input-group input-group-sm" style="width: 150px;">
                         <input wire:model="search" type="search" name="table_search" class="form-control float-right"
-                            placeholder="Search">
+                            placeholder="Cari">
                         <div class="input-group-append">
                             <button wire:click="searchData" type="submit" class="btn btn-default">
                                 <i class="fas fa-search"></i>
@@ -82,7 +82,7 @@
 
                 <div class="btn-group">
                     <!-- Tombol filter lainnya -->
-                    <button wire:click="downloadExcel" class="btn btn-sm btn-primary" style="margin-left: 2px;">Download
+                    <button wire:click="downloadExcel" class="btn btn-sm btn-primary" style="margin-left: 2px;">Unduh
                         Excel</button>
                 </div>
             </div>
@@ -90,7 +90,7 @@
     </div>
 
     @if ($tamu->isEmpty())
-        <div class="card">
+        <div class="card col-md-12">
             <div class="card-body">
                 <div class="alert alert-warning">
                     Anda tidak memiliki data

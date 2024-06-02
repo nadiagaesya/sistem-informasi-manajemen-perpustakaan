@@ -8,13 +8,13 @@
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="asset\images\slide2.jpg" class="d-block w-100" alt="...">
+                            <img src="asset\images\PERPUSTAKAAN.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="asset\images\sistem.png" class="d-block w-100" alt="...">
+                            <img src="asset\images\PERPUSTAKAAN.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="asset\images\sistem2.png" class="d-block w-100" alt="...">
+                            <img src="asset\images\PERPUSTAKAAN.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
@@ -47,13 +47,14 @@
 
                             <div class="row mb-3 mt-4">
                                 <div class="col-md-12">
-                                    <label class="label-email" for="email">Email <span class="text-danger">*</span>
+                                    <label class="label-email" for="email">Alamat Surel <span
+                                            class="text-danger">*</span>
                                     </label>
 
                                     <input id="email" type="email"
                                         class="form-control @error('email') is-invalid @enderror" name="email"
                                         value="{{ old('email') }}" autocomplete="email" autofocus required
-                                        placeholder="Masukkan email">
+                                        placeholder="Masukkan alamat surel">
 
                                     @error('email')
                                         <span class="invalid-feedback" role="alert">

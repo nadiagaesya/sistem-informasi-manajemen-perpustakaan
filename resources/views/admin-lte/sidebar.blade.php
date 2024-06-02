@@ -38,7 +38,7 @@
                     <a href="#" class="nav-link @yield('active-data-master')">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
-                            Data Master
+                            Data Inventaris
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
@@ -64,7 +64,7 @@
                         <li class="nav-item">
                             <a href="/buku" class="nav-link @yield('active-buku')">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Buku</p>
+                                <p>Data Buku</p>
                             </a>
                         </li>
                     </ul>
@@ -97,7 +97,7 @@
                         <a href="/user" class="nav-link @yield('active-user')">
                             <i class="fas fa-users"></i>
                             <p>
-                                User
+                                Data Pengguna
                             </p>
                         </a>
                     </li>

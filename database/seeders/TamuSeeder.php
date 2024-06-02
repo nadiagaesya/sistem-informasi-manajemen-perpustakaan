@@ -13,11 +13,11 @@ class TamuSeeder extends Seeder
      */
     public function run(): void
     {
-        Tamu::create([
-            'nama_lengkap' => 'ucup',
-            'telepon' => '081266473526',
-            'instansi' => 'Universitas Riau',
-            'keperluan' => 'Berkunjung',
-        ]);
+        // Tamu::create([
+        //     'nama_lengkap' => 'ucup',
+        //     'telepon' => '081266473526',
+        //     'instansi' => 'Universitas Riau',
+        //     'keperluan' => 'Berkunjung',
+        // ]);
     }
 }

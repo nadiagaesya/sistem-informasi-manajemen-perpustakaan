@@ -8,7 +8,7 @@
                     <small class="text-danger">{{ $message }}</small>
                 @enderror
             </div>
-            <span wire:click="update({{ $kategori_id }})" class="btn btn-sm btn-success">Update</span>
+            <span wire:click="update({{ $kategori_id }})" class="btn btn-sm btn-success">Ubah</span>
         </div>
     </div>
 @endif

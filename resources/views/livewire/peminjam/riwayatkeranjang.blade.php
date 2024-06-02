@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-12 text-center">
             <div class="text" style="font-weight:bold; font-size:18px;">
-                <p>Riwayat Peminjaman</p>
+                <p>Riwayat Peminjaman dan Pengembalian</p>
             </div>
         </div>
 

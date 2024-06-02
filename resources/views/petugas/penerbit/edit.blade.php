@@ -19,7 +19,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                     <span wire:click="format" type="button" class="btn btn-default" data-dismiss="modal">Batal</span>
-                    <span wire:click="update({{$penerbit_id}})" type="button" class="btn btn-primary">Update</span>
+                    <span wire:click="update({{$penerbit_id}})" type="button" class="btn btn-primary">Ubah</span>
                 </div>
             </div>
             <!-- /.modal-content -->
