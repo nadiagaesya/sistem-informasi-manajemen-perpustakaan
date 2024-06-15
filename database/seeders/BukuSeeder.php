@@ -1977,5 +1977,690 @@ class BukuSeeder extends Seeder
             'rak_id' => 12,
             'stok' => 30
         ]);
+
+        //PENGADAAN BUKU PEGANGAN WAJIB SISWA (K13) MEDIATAMA
+        Buku::create([
+            'judul' => 'Pendidikan Agama Islam dan Budi Pekerti 10',
+            'slug' => Str::slug('pai-dan-budi-pekerti-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Agama Islam dan Budi Pekerti 11',
+            'slug' => Str::slug('pai-dan-budi-pekerti-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Agama Islam dan Budi Pekerti 12',
+            'slug' => Str::slug('pai-dan-budi-pekerti-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Indonesia 11',
+            'slug' => Str::slug('bahasa-indonesia-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Indonesia 12',
+            'slug' => Str::slug('bahasa-indonesia-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Matematika 11',
+            'slug' => Str::slug('Matematika-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+        Buku::create([
+            'judul' => 'Matematika 12',
+            'slug' => Str::slug('Matematika-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+        Buku::create([
+            'judul' => 'Sejarah Indonesia 11',
+            'slug' => Str::slug('Sejarah-Indonesia-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Sejarah Indonesia 12',
+            'slug' => Str::slug('Sejarah-Indonesia-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Inggris 10',
+            'slug' => Str::slug('Bahasa-Inggris-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Inggris 11',
+            'slug' => Str::slug('Bahasa-Inggris-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Inggris 12',
+            'slug' => Str::slug('Bahasa-Inggris-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Seni Budaya 10',
+            'slug' => Str::slug('Seni-Budaya-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Seni Budaya 11',
+            'slug' => Str::slug('Seni-Budaya-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Seni Budaya 12',
+            'slug' => Str::slug('Seni-Budaya-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Prakarya dan Kewirausahaan 10',
+            'slug' => Str::slug('Prakarya-dan-Kewirausahaan-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Prakarya dan Kewirausahaan 11',
+            'slug' => Str::slug('Prakarya-dan-Kewirausahaan-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Prakarya dan Kewirausahaan 12',
+            'slug' => Str::slug('Prakarya-dan-Kewirausahaan-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan 10',
+            'slug' => Str::slug('Pendidikan-Jasmani-Olahraga-dan-Kesehatan-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan 11',
+            'slug' => Str::slug('Pendidikan-Jasmani-Olahraga-dan-Kesehatan-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan 12',
+            'slug' => Str::slug('Pendidikan-Jasmani-Olahraga-dan-Kesehatan-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+
+        //PENGADAAN BUKU PEGANGAN WAJIB SISWA (K13) MEDIATAMA
+        Buku::create([
+            'judul' => 'Matematika (MINAT IPA) SMA 10',
+            'slug' => Str::slug('Matematika-(MINAT-IPA)-SMA-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Biologi (MINAT IPA) SMA 10',
+            'slug' => Str::slug('Biologi-(MINAT-IPA)-SMA-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Fisika (MINAT IPA) SMA 10',
+            'slug' => Str::slug('Fisika-(MINAT-IPA)-SMA-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Kimia (MINAT IPA) SMA 10',
+            'slug' => Str::slug('Kimia-(MINAT-IPA)-SMA-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Geografi (MINAT IPS) SMA 10',
+            'slug' => Str::slug('Geografi-(MINAT-IPS)-SMA-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Ekonomi (MINAT IPS) SMA 10',
+            'slug' => Str::slug('Ekonomi-(MINAT-IPS)-SMA-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Sosiologi (MINAT IPS) SMA 10',
+            'slug' => Str::slug('Sosiologi-(MINAT-IPS)-SMA-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Sejarah (MINAT IPS) SMA 10',
+            'slug' => Str::slug('Sejarah-(MINAT-IPS)-SMA-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa dan Sastra Inggris (MINAT BAHASA) SMA 10',
+            'slug' => Str::slug('Bahasa-dan-Sastra-Inggris-(MINAT-BAHASA)-SMA-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 100
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa dan Sastra Inggris (MINAT BAHASA) SMA 11',
+            'slug' => Str::slug('Bahasa-dan-Sastra-Inggris-(MINAT-BAHASA)-SMA-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 200
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa dan Sastra Inggris (MINAT BAHASA) SMA 12',
+            'slug' => Str::slug('Bahasa-dan-Sastra-Inggris-(MINAT-BAHASA)-SMA-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 100
+        ]);
+
+        //PENGADAAN BUKU PEGANGAN WAJIB SISWA (K13) MEDIATAMA
+        Buku::create([
+            'judul' => 'Negara Maju-Matematika (MINAT IPA) 11',
+            'slug' => Str::slug('Negara-Maju-Matematika-(MINAT-IPA)-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Matematika (MINAT IPA) 12',
+            'slug' => Str::slug('Negara-Maju-Matematika-(MINAT-IPA)-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Biologi (MINAT IPA) 11',
+            'slug' => Str::slug('Negara-Maju-Biologi-(MINAT-IPA)-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Biologi (MINAT IPA) 12',
+            'slug' => Str::slug('Negara-Maju-Biologi-(MINAT-IPA)-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Fisika (MINAT IPA) 11',
+            'slug' => Str::slug('Negara-Maju-Fisika-(MINAT-IPA)-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Fisika (MINAT IPA) 12',
+            'slug' => Str::slug('Negara-Maju-Fisika-(MINAT-IPA)-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Kimia (MINAT IPA) 11',
+            'slug' => Str::slug('Negara-Maju-Kimia-(MINAT-IPA)-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Kimia (MINAT IPA) 12',
+            'slug' => Str::slug('Negara-Maju-Kimia-(MINAT-IPA)-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Geografi (MINAT IPS) 11',
+            'slug' => Str::slug('Negara-Maju-Geografi-(MINAT-IPS)-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Geografi (MINAT IPS) 12',
+            'slug' => Str::slug('Negara-Maju-Geografi-(MINAT-IPS)-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Ekonomi (MINAT IPS) 11',
+            'slug' => Str::slug('Negara-Maju-Ekonomi-(MINAT-IPS)-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Ekonomi (MINAT IPS) 12',
+            'slug' => Str::slug('Negara-Maju-Ekonomi-(MINAT-IPS)-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Sosiologi (MINAT IPS) 11',
+            'slug' => Str::slug('Negara-Maju-Sosiologi-(MINAT-IPS)-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Sosiologi (MINAT IPS) 12',
+            'slug' => Str::slug('Negara-Maju-Sosiologi-(MINAT-IPS)-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Sejarah (MINAT IPS) 11',
+            'slug' => Str::slug('Negara-Maju-Sejarah-(MINAT-IPS)-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Negara Maju-Sejarah (MINAT IPS) 12',
+            'slug' => Str::slug('Negara-Maju-Sejarah-(MINAT-IPS)-12'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 10,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        //2023
+        //PENGADAAN GURU PEGANGAN GURU (KELAS X DAN XI IKM)
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Pendidikan Pancasila dan Kewarganegaraan Kelas 10',
+            'slug' => Str::slug('Buku-Panduan-Guru-Pendidikan-Pancasila-dan-Kewarganegaraan-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Cerdas Cergas Berbahasa dan Bersastra Indonesia Kelas 10',
+            'slug' => Str::slug('Buku-Panduan-Guru-Cerdas-Cergas-Berbahasa-dan-Bersastra-Indonesia-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Matematika Kelas 10',
+            'slug' => Str::slug('Buku-Panduan-Guru-Matematika-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Seni Tari Kelas 10',
+            'slug' => Str::slug('Buku-Panduan-Guru-Seni-Tari-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Pendidikan Jasmani, Olahraga, dan Kesehatan Kelas 10',
+            'slug' => Str::slug('Buku-Panduan-Guru-Pendidikan-Jasmani-Olahraga-dan-Kesehatan-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Ilmu Pengetahuan Alam Kelas 10',
+            'slug' => Str::slug('Buku-Panduan-Guru-Ilmu-Pengetahuan-Alam-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 9
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Ilmu Pengetahuan Sosial Kelas 10',
+            'slug' => Str::slug('Buku-Panduan-Guru-Ilmu-Pengetahuan-Sosial-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 8
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Informatika Kelas 10',
+            'slug' => Str::slug('Buku-Panduan-Guru-Informatika-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Pendidikan Agama Islam dan Budi Pekerti Kelas 10',
+            'slug' => Str::slug('Buku-Panduan-Guru-Pendidikan-Agama-Islam-dan-Budi-Pekerti-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Pendidikan Agama Kristen dan Budi Pekerti Kelas 10',
+            'slug' => Str::slug('Buku-Panduan-Guru-Pendidikan-Agama-Kristen-dan-Budi-Pekerti-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 1
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Seni Tari Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Seni-Tari-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        //PENGADAAN BUKU PEGANGAN GURU (KELAS X IKM)
+        Buku::create([
+            'judul' => 'Buku Guru IPA Kimia Kelas 10',
+            'slug' => Str::slug('Buku-Guru-IPA-Kimia-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Unggul Sudarmo',
+            'penerbit_id' => 5,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Buku Guru IPA Fisika Kelas 10',
+            'slug' => Str::slug('Buku-Guru-IPA-Fisika-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Ni ketut Lasmi',
+            'penerbit_id' => 5,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Buku Guru IPA Biologi Kelas 10',
+            'slug' => Str::slug('Buku-Guru-IPA-Biologi-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Irnaningtyas-Sylva Sagita',
+            'penerbit_id' => 5,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+
+        //PENGADAAN BUKU PEGANGAN SISWA (KELAS X & XI IKM)
+        Buku::create([
+            'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan Kelas 10',
+            'slug' => Str::slug('Pendidikan-Jasmani-Olahraga-dan-Kesehatan-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Muhajir',
+            'penerbit_id' => 5,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 273
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan Kelas 11',
+            'slug' => Str::slug('Pendidikan-Jasmani-Olahraga-dan-Kesehatan-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Sri Winarni dkk',
+            'penerbit_id' => 5,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 273
+        ]);
+        Buku::create([
+            'judul' => 'Biologi Kelas 11',
+            'slug' => Str::slug('Biologi -Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Irnaningtyas-Sylva Sagita',
+            'penerbit_id' => 5,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 124
+        ]);
+        Buku::create([
+            'judul' => 'Kimia Kelas 11',
+            'slug' => Str::slug('Kimia -Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Unggul Sudarmo',
+            'penerbit_id' => 5,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 123
+        ]);
+        Buku::create([
+            'judul' => 'Fisika Kelas 11',
+            'slug' => Str::slug('Fisika -Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Ni Ketut Lasmi',
+            'penerbit_id' => 5,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 93
+        ]);
+
+        //PENGADAAN BUKU PEGANGAN SISWA (KELAS X & XI IKM)
     }
 }
