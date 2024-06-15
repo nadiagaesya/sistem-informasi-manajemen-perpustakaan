@@ -73,7 +73,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Pendidikan Pancasila dan Kewarganegaraan',
             'slug' => Str::slug('Pendidikan-Pancasila-dan-Kewarganegaraan'),
-            'sampul' => 'buku/pendidikan-pancasila-dan-kewarganegaraan-2018-XII.jpeg',
+            'sampul' => 'buku/pendidikan-pancasila-dan-kewarganegaraan-XII-2018.jpg',
             'penulis' => 'Yusnawan Lubis dkk',
             'penerbit_id' => 2,
             'kategori_id' => 4,
@@ -223,6 +223,751 @@ class BukuSeeder extends Seeder
             'kategori_id' => 4,
             'rak_id' => 12,
             'stok' => 160
+        ]);
+
+        Buku::create([
+            'judul' => 'Matematika',
+            'slug' => Str::slug('Matematika'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Atmini Dhoruri dkk',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 98
+        ]);
+
+        Buku::create([
+            'judul' => 'Biologi',
+            'slug' => Str::slug('Biologi'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Tati S. Syamsuddin',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 158
+        ]);
+
+        Buku::create([
+            'judul' => 'Fisika',
+            'slug' => Str::slug('Fisika'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Fieska Cahyani dkk',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 152
+        ]);
+
+        Buku::create([
+            'judul' => 'Kimia',
+            'slug' => Str::slug('Kimia'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Maryono',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 152
+        ]);
+
+        Buku::create([
+            'judul' => 'Geografi',
+            'slug' => Str::slug('Geografi'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Samadi',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 140
+        ]);
+
+        Buku::create([
+            'judul' => 'Sejarah',
+            'slug' => Str::slug('Sejarah'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Tri Karunia',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 160
+        ]);
+
+        Buku::create([
+            'judul' => 'Ekonomi',
+            'slug' => Str::slug('Ekonomi'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'M. Suparmoko',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 160
+        ]);
+
+        Buku::create([
+            'judul' => 'Sosiologi',
+            'slug' => Str::slug('Sosiologi'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Suwardi',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 160
+        ]);
+
+        Buku::create([
+            'judul' => 'PSM Matematika',
+            'slug' => Str::slug('PSM-Matematika'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Trija Falyedi',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'PSM Biologi',
+            'slug' => Str::slug('PSM-Biologi'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Tim Pena Sains',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+
+        Buku::create([
+            'judul' => 'PSM Fisika',
+            'slug' => Str::slug('PSM-Fisika'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Tim Pena Sains',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'PSM Kimia',
+            'slug' => Str::slug('PSM-Kimia'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Tim Pena Sains',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+
+        Buku::create([
+            'judul' => 'PSM Sejarah',
+            'slug' => Str::slug('PSM-Sejarah'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Dwi Winarto',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'PSM Geografi',
+            'slug' => Str::slug('PSM-Geografi'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Rizky Tifa Amelia',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'PSM Ekonomi',
+            'slug' => Str::slug('PSM-Ekonomi'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Agus Mulyono',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'PSM Sosiologi',
+            'slug' => Str::slug('PSM-Sosiologi'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Suardi',
+            'penerbit_id' => 4,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Bahasa Inggris',
+            'slug' => Str::slug('Bahasa-Inggris'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Theresia Sudarwati',
+            'penerbit_id' => 5,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Bahasa Inggris',
+            'slug' => Str::slug('Bahasa-Inggris'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Theresia Sudarwati',
+            'penerbit_id' => 5,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Bahasa Inggris',
+            'slug' => Str::slug('Bahasa-Inggris'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Theresia Sudarwati',
+            'penerbit_id' => 5,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Agama Islam',
+            'slug' => Str::slug('Agama-Islam'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Sadi, dkk',
+            'penerbit_id' => 5,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Agama Islam',
+            'slug' => Str::slug('Agama-Islam'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Sadi, dkk',
+            'penerbit_id' => 5,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Agama Islam',
+            'slug' => Str::slug('Agama-Islam'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Sadi, dkk',
+            'penerbit_id' => 5,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Bahasa Inggris',
+            'slug' => Str::slug('Bahasa-Inggris'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+
+        Buku::create([
+            'judul' => 'Bahasa Inggris',
+            'slug' => Str::slug('Bahasa-Inggris'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+
+        Buku::create([
+            'judul' => 'Bahasa Inggris',
+            'slug' => Str::slug('Bahasa-Inggris'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+
+        Buku::create([
+            'judul' => 'Agama Islam',
+            'slug' => Str::slug('Agama-Islam'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Agama Islam',
+            'slug' => Str::slug('Agama-Islam'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Agama Islam',
+            'slug' => Str::slug('Agama-Islam'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Bahasa Indonesia',
+            'slug' => Str::slug('Bahasa-Indonesia'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Bahasa Indonesia',
+            'slug' => Str::slug('Bahasa-Indonesia'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Bahasa Indonesia',
+            'slug' => Str::slug('Bahasa-Indonesia'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Matematika',
+            'slug' => Str::slug('Matematika'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+
+        Buku::create([
+            'judul' => 'Matematika',
+            'slug' => Str::slug('Matematika'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+
+        Buku::create([
+            'judul' => 'Matematika',
+            'slug' => Str::slug('Matematika'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+
+        Buku::create([
+            'judul' => 'Pendidikan Kewarganegaraan',
+            'slug' => Str::slug('Pendidikan-Kewarganegaraan'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Pendidikan Kewarganegaraan',
+            'slug' => Str::slug('Pendidikan-Kewarganegaraan'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Pendidikan Kewarganegaraan',
+            'slug' => Str::slug('Pendidikan-Kewarganegaraan'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan',
+            'slug' => Str::slug('pjok'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan',
+            'slug' => Str::slug('pjok'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan',
+            'slug' => Str::slug('pjok'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Prakarya',
+            'slug' => Str::slug('Prakarya'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Prakarya',
+            'slug' => Str::slug('Prakarya'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Prakarya',
+            'slug' => Str::slug('Prakarya'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Seni Budaya',
+            'slug' => Str::slug('Seni-Budaya'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Seni Budaya',
+            'slug' => Str::slug('Seni-Budaya'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Seni Budaya',
+            'slug' => Str::slug('Seni-Budaya'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Sejarah Indonesia',
+            'slug' => Str::slug('Sejarah-Indonesia'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Sejarah Indonesia',
+            'slug' => Str::slug('Sejarah-Indonesia'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Sejarah Indonesia',
+            'slug' => Str::slug('Sejarah-Indonesia'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Ekonomi',
+            'slug' => Str::slug('Ekonomi'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 6,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Ekonomi',
+            'slug' => Str::slug('Ekonomi'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 6,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Ekonomi',
+            'slug' => Str::slug('Ekonomi'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 6,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Sosiologi',
+            'slug' => Str::slug('Sosiologi'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 6,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Sosiologi',
+            'slug' => Str::slug('Sosiologi'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 6,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Sosiologi',
+            'slug' => Str::slug('Sosiologi'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 6,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Kimia',
+            'slug' => Str::slug('Kimia'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Unggul Sudarmo',
+            'penerbit_id' => 5,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        Buku::create([
+            'judul' => 'Kimia',
+            'slug' => Str::slug('Kimia'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Unggul Sudarmo',
+            'penerbit_id' => 5,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Kimia',
+            'slug' => Str::slug('Kimia'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Unggul Sudarmo',
+            'penerbit_id' => 5,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Kimia',
+            'slug' => Str::slug('Kimia'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Unggul Sudarmo',
+            'penerbit_id' => 5,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Fisika',
+            'slug' => Str::slug('Fisika'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Marthen Kanginan',
+            'penerbit_id' => 5,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Fisika',
+            'slug' => Str::slug('Fisika'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Marthen Kanginan',
+            'penerbit_id' => 5,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        Buku::create([
+            'judul' => 'Fisika',
+            'slug' => Str::slug('Fisika'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => 'Marthen Kanginan',
+            'penerbit_id' => 5,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+
+        //PENGADAAN BUKU PEMERINTAH PEGANGAN PESERTA DIDIK
+        //STOK BELUM SESUAI
+        Buku::create([
+            'judul' => 'Pendidikan Pancasila dan Kewarganegaraan',
+            'slug' => Str::slug('ppkn'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Pancasila dan Kewarganegaraan',
+            'slug' => Str::slug('ppkn'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Pancasila dan Kewarganegaraan',
+            'slug' => Str::slug('ppkn'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Indonesia',
+            'slug' => Str::slug('Bahasa-Indonesia'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Indonesia',
+            'slug' => Str::slug('Bahasa-Indonesia'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Indonesia',
+            'slug' => Str::slug('Bahasa-Indonesia'),
+            'sampul' => 'buku/sampul-buku-XII.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 4,
+            'rak_id' => 12,
+            'stok' => 5
         ]);
     }
 }

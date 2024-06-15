@@ -9,6 +9,6 @@ class VisimisiController extends Controller
 {
     public function __invoke(Request $request)
     {
-        return view('peminjam/visimisi/index');
+        return view('peminjam/visi-misi/index');
     }
 }

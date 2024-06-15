@@ -20,7 +20,7 @@
                         <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="/">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @yield('active-visimisi')" href="/visimisi">Visi & Misi</a>
+                        <a class="nav-link @yield('active-visimisi')" href="/visi-misi">Visi & Misi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link @yield('active-tata-tertib')" href="/tata-tertib">Tata Tertib</a>
@@ -28,7 +28,7 @@
                     @guest
                         <!-- Tautan Buku Tamu hanya muncul jika pengguna belum login -->
                         <li class="nav-item">
-                            <a class="nav-link @yield('active-tamu')" href="/bukutamu">Tamu</a>
+                            <a class="nav-link @yield('active-tamu')" href="/buku-tamu">Tamu</a>
                         </li>
                     @endguest
                 </ul>

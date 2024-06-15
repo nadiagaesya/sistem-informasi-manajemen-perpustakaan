@@ -13,7 +13,7 @@
         </div>
         <div class="card-body">
             <div class="row" style="margin-bottom: 20px;">
-                <div class="col-md-8">
+                <div class="col-md-8 mb-3">
                     <button class="btn btn-md text-white" style="background-color: #148518;">
                         <!-- Tampilkan semua kategori hanya jika berada di halaman beranda -->
                         <li class="nav-item dropdown" type="none">
@@ -57,14 +57,14 @@
 
             {{-- detail buku --}}
             @if ($detail_buku)
-                <div class="card" style="max-width: 900px; margin-left: 180px;">
+                <div class="card" id="card-detailbuku">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="row-detailbuku">
                             <img src="/storage/{{ $buku->sampul }}" alt="{{ $buku->judul }}" width="300"
-                                height="410" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); border-radius: 5px;">
+                                height="410" id="sampul-detail">
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body">
+                            <div class="card-body" id="cardbody-detail">
                                 <table class="table table-borderless"
                                     style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); border-radius: 10px;
                             overflow: hidden;">

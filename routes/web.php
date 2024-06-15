@@ -24,8 +24,8 @@ use App\Models\User;
 
 //pengguna tanpa memiliki role
 Route::get('/', PeminjamBukuController::class);
-Route::get('/bukutamu', BukutamuController::class);
-Route::get('/visimisi', VisimisiController::class);
+Route::get('/buku-tamu', BukutamuController::class);
+Route::get('/visi-misi', VisimisiController::class);
 Route::get('/tata-tertib', TataTertibController::class);
 
 Auth::routes();

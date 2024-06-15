@@ -8,6 +8,6 @@ class Visimisi extends Component
 {
     public function render()
     {
-        return view('livewire.peminjam.visimisi');
+        return view('livewire.peminjam.visi-misi');
     }
 }

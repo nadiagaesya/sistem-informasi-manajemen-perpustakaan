@@ -62,7 +62,7 @@ class Bukutamu extends Component
         $this->jumlahPengunjungHariIni = Tamu::whereDate('created_at', now()->format('Y-m-d'))->count();
 
 
-        return view('livewire.tamu.bukutamu');
+        return view('livewire.tamu.buku-tamu');
     }
 
     public function format()

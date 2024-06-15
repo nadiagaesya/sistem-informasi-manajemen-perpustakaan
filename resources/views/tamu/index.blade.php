@@ -3,5 +3,5 @@
 @section('title', 'Buku Tamu')
 
 @section('content')
-      <livewire:tamu.bukutamu></livewire:tamu.bukutamu>
+      <livewire:tamu.buku-tamu></livewire:tamu.buku-tamu>
 @endsection
