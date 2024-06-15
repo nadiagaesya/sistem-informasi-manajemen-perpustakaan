@@ -135,9 +135,9 @@ class Buku extends Component
     {
         if ($this->pilih_kategori) {
             if ($this->search) {
-                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->where('kategori_id', $this->kategori_id)->paginate(8);
+                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->where('kategori_id', $this->kategori_id)->paginate(16);
             } else {
-                $buku = ModelsBuku::latest()->where('kategori_id', $this->kategori_id)->paginate(8);
+                $buku = ModelsBuku::latest()->where('kategori_id', $this->kategori_id)->paginate(16);
             }
             $title = Kategori::find($this->kategori_id)->nama;
         } elseif ($this->detail_buku) {
@@ -146,9 +146,9 @@ class Buku extends Component
         } else {
             //masih belum berfungsi dengan baik search nya
             if ($this->search) {
-                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->paginate(8);
+                $buku = ModelsBuku::latest()->where('judul', 'like', '%' . $this->search . '%')->paginate(16);
             } else {
-                $buku = ModelsBuku::latest()->paginate(8);
+                $buku = ModelsBuku::latest()->paginate(16);
             }
             $title = 'Semua Buku';
         }

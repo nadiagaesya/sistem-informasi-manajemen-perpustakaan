@@ -141,7 +141,7 @@ class BukuSeeder extends Seeder
             'judul' => 'Matematika',
             'slug' => Str::slug('Matematika'),
             'sampul' => 'buku/matematika-qudra-XII.jpeg',
-            'penulis' => 'Atmini Dhoruri',
+            'penulis' => 'Atmini Dhoruri, Syamsuardi',
             'penerbit_id' => 4,
             'kategori_id' => 4,
             'rak_id' => 12,
@@ -152,7 +152,7 @@ class BukuSeeder extends Seeder
             'judul' => 'Biologi',
             'slug' => Str::slug('Biologi'),
             'sampul' => 'buku/biologi-peminatan-matk-dan-ilmu-alam-XII.jpeg',
-            'penulis' => 'Tati S. Syamsuddin',
+            'penulis' => 'Tati S. Syamsuddin, Lilis Setiasih',
             'penerbit_id' => 4,
             'kategori_id' => 4,
             'rak_id' => 12,
@@ -163,7 +163,7 @@ class BukuSeeder extends Seeder
             'judul' => 'Fisika',
             'slug' => Str::slug('Fisika'),
             'sampul' => 'buku/fisika-quadra-XII.jpeg',
-            'penulis' => 'Fieska Cahyani dkk',
+            'penulis' => 'Fieska Cahyani, Yandri Santoso',
             'penerbit_id' => 4,
             'kategori_id' => 4,
             'rak_id' => 12,
@@ -225,11 +225,13 @@ class BukuSeeder extends Seeder
             'stok' => 160
         ]);
 
+        //PENGADAAN BUKU TEKS PEMINATAN SISWA KELAS XII (KELAS K13)
+
         Buku::create([
             'judul' => 'Matematika',
             'slug' => Str::slug('Matematika'),
-            'sampul' => 'buku/sampul-buku-XII.png',
-            'penulis' => 'Atmini Dhoruri dkk',
+            'sampul' => 'buku/matematika-qudra-XII.jpeg',
+            'penulis' => 'Atmini Dhoruri, Syamsuardi',
             'penerbit_id' => 4,
             'kategori_id' => 4,
             'rak_id' => 12,
@@ -239,8 +241,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Biologi',
             'slug' => Str::slug('Biologi'),
-            'sampul' => 'buku/sampul-buku-XII.png',
-            'penulis' => 'Tati S. Syamsuddin',
+            'sampul' => 'buku/biologi-peminatan-matk-dan-ilmu-alam-XII.jpeg',
+            'penulis' => 'Tati S. Syamsuddin, Lilis Setiasih',
             'penerbit_id' => 4,
             'kategori_id' => 4,
             'rak_id' => 12,
@@ -250,8 +252,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Fisika',
             'slug' => Str::slug('Fisika'),
-            'sampul' => 'buku/sampul-buku-XII.png',
-            'penulis' => 'Fieska Cahyani dkk',
+            'sampul' => 'buku/fisika-quadra-XII.jpeg',
+            'penulis' => 'Fieska Cahyani, Yandri Santoso',
             'penerbit_id' => 4,
             'kategori_id' => 4,
             'rak_id' => 12,
@@ -261,7 +263,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Kimia',
             'slug' => Str::slug('Kimia'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'sampul' => 'buku/kimia-quadra-peminatan-matk-dan-ilmu-alam-XII.jpeg',
             'penulis' => 'Maryono',
             'penerbit_id' => 4,
             'kategori_id' => 4,
@@ -272,7 +274,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Geografi',
             'slug' => Str::slug('Geografi'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'sampul' => 'buku/geografi-quadra-XII.jpeg',
             'penulis' => 'Samadi',
             'penerbit_id' => 4,
             'kategori_id' => 4,
@@ -283,7 +285,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Sejarah',
             'slug' => Str::slug('Sejarah'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'sampul' => 'buku/sejarah-quadra-XII.jpeg',
             'penulis' => 'Tri Karunia',
             'penerbit_id' => 4,
             'kategori_id' => 4,
@@ -294,7 +296,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Ekonomi',
             'slug' => Str::slug('Ekonomi'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'sampul' => 'buku/ekonomi-quadra-XII.jpeg',
             'penulis' => 'M. Suparmoko',
             'penerbit_id' => 4,
             'kategori_id' => 4,
@@ -305,7 +307,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Sosiologi',
             'slug' => Str::slug('Sosiologi'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'sampul' => 'buku/sosiologi-quadra-XII.jpeg',
             'penulis' => 'Suwardi',
             'penerbit_id' => 4,
             'kategori_id' => 4,
@@ -401,6 +403,7 @@ class BukuSeeder extends Seeder
             'stok' => 5
         ]);
 
+        //PENGADAAN BUKU PEGANGAN GURU MATA PELAJARAN WAJIB KURIKULUM 2013
         Buku::create([
             'judul' => 'Bahasa Inggris',
             'slug' => Str::slug('Bahasa-Inggris'),
@@ -479,9 +482,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Bahasa Inggris',
-            'slug' => Str::slug('Bahasa-Inggris'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'judul' => 'Buku Guru Bahasa Inggris',
+            'slug' => Str::slug('Buku-Guru-Bahasa-Inggris'),
+            'sampul' => 'buku/buku-guru-bahasa-inggris-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -490,9 +493,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Bahasa Inggris',
-            'slug' => Str::slug('Bahasa-Inggris'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'judul' => 'Buku Guru Bahasa Inggris',
+            'slug' => Str::slug('Buku-Guru-Bahasa-Inggris'),
+            'sampul' => 'buku/buku-guru-bahasa-inggris-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 4,
@@ -512,9 +515,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Agama Islam',
-            'slug' => Str::slug('Agama-Islam'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'judul' => 'Buku Guru Agama Islam',
+            'slug' => Str::slug('Buku-Guru-Agama-Islam'),
+            'sampul' => 'buku/buku-guru-pendidikan-agama-islam-dan-budi-pekerti-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -523,9 +526,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Agama Islam',
-            'slug' => Str::slug('Agama-Islam'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'judul' => 'Buku Guru Agama Islam',
+            'slug' => Str::slug('Buku-Guru-Agama-Islam'),
+            'sampul' => 'buku/buku-guru-pendidikan-agama-islam-dan-budi-pekerti-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 4,
@@ -545,9 +548,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Bahasa Indonesia',
-            'slug' => Str::slug('Bahasa-Indonesia'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'judul' => 'Buku Guru Bahasa Indonesia',
+            'slug' => Str::slug('Buku-Guru-Bahasa-Indonesia'),
+            'sampul' => 'buku/buku-guru-bahasa-indonesia-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -556,9 +559,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Bahasa Indonesia',
-            'slug' => Str::slug('Bahasa-Indonesia'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'judul' => 'Buku Guru Bahasa Indonesia',
+            'slug' => Str::slug('Buku-Guru-Bahasa-Indonesia'),
+            'sampul' => 'buku/buku-guru-bahasa-indonesia-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 4,
@@ -578,9 +581,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Matematika',
-            'slug' => Str::slug('Matematika'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'judul' => 'Buku Guru Matematika',
+            'slug' => Str::slug('Buku-Guru-Matematika'),
+            'sampul' => 'buku/buku-guru-matematika-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -589,9 +592,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Matematika',
-            'slug' => Str::slug('Matematika'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'judul' => 'Buku Guru Matematika',
+            'slug' => Str::slug('Buku-Guru-Matematika'),
+            'sampul' => 'buku/buku-guru-matematika-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 4,
@@ -611,9 +614,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Pendidikan Kewarganegaraan',
-            'slug' => Str::slug('Pendidikan-Kewarganegaraan'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'judul' => 'Buku Guru Pendidikan Kewarganegaraan',
+            'slug' => Str::slug('Buku-Guru-Pendidikan-Kewarganegaraan'),
+            'sampul' => 'buku/buku-guru-pendidikan-pancasila-dan-kewarganegaraan-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -622,9 +625,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Pendidikan Kewarganegaraan',
-            'slug' => Str::slug('Pendidikan-Kewarganegaraan'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'judul' => 'Buku Guru Pendidikan Kewarganegaraan',
+            'slug' => Str::slug('Buku-Guru-Pendidikan-Kewarganegaraan'),
+            'sampul' => 'buku/buku-guru-pendidikan-pancasila-dan-kewarganegaraan-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 4,
@@ -644,9 +647,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan',
-            'slug' => Str::slug('pjok'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'judul' => 'Buku Guru Pendidikan Jasmani, Olahraga, dan Kesehatan',
+            'slug' => Str::slug('Buku-Guru-pjok'),
+            'sampul' => 'buku/buku-guru-pendidikan-jasmani-olahraga-dan-kesehatan-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -677,9 +680,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Prakarya',
-            'slug' => Str::slug('Prakarya'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'judul' => 'Buku Guru Prakarya dan Kewirausahaan',
+            'slug' => Str::slug('Buku-Guru-Prakarya'),
+            'sampul' => 'buku/buku-guru-prakarya-dan-kewirausahaan-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -688,9 +691,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Prakarya',
-            'slug' => Str::slug('Prakarya'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'judul' => 'Buku Guru Prakarya dan Kewirausahaan',
+            'slug' => Str::slug('Buku-Guru-Prakarya'),
+            'sampul' => 'buku/buku-guru-prakarya-dan-kewirausahaan-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 4,
@@ -710,9 +713,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Seni Budaya',
-            'slug' => Str::slug('Seni-Budaya'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'judul' => 'Buku Guru Seni Budaya',
+            'slug' => Str::slug('Buku-Guru-Seni-Budaya'),
+            'sampul' => 'buku/buku-guru-seni-budaya-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -721,9 +724,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Seni Budaya',
-            'slug' => Str::slug('Seni-Budaya'),
-            'sampul' => 'buku/sampul-buku-XII.png',
+            'judul' => 'Buku Guru Seni Budaya',
+            'slug' => Str::slug('Buku-Guru-Seni-Budaya'),
+            'sampul' => 'buku/buku-guru-seni-budaya-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 4,
@@ -743,9 +746,9 @@ class BukuSeeder extends Seeder
         ]);
 
         Buku::create([
-            'judul' => 'Sejarah Indonesia',
-            'slug' => Str::slug('Sejarah-Indonesia'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'judul' => 'Buku Guru Sejarah Indonesia',
+            'slug' => Str::slug('Buku-Guru-Sejarah-Indonesia'),
+            'sampul' => 'buku/buku-guru-sejarah-indonesia-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -763,6 +766,8 @@ class BukuSeeder extends Seeder
             'rak_id' => 12,
             'stok' => 2
         ]);
+
+        //PENGADAAN BUKU PEGANGAN GURU MATA PELAJARAN ILMU-ILMU SOSIAL KURIKULUM 2013
 
         Buku::create([
             'judul' => 'Ekonomi',
@@ -830,6 +835,7 @@ class BukuSeeder extends Seeder
             'stok' => 5
         ]);
 
+        //PENGADAAN BUKU PEGANGAN GURU MATA PELAJARAN ILMU-ILMU ALAM KURIKULUM 2013
         Buku::create([
             'judul' => 'Kimia',
             'slug' => Str::slug('Kimia'),
