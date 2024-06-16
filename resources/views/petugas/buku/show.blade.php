@@ -1,6 +1,6 @@
 @if ($show)
     <div class="modal fade show" id="modal-default" style="padding-right: 17px; display: block;">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Lihat Buku</h4>
@@ -13,11 +13,11 @@
                         <div class="col-md-5">
                             <div class="row justify-content-center">
                                 <img src="/storage/{{ $sampul }}" alt="{{ $judul }}" width="250"
-                                    height="350">
+                                    height="350" style="margin-left: -100px;">
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <table class="table text-nowrap">
+                            <table class="table text-nowrap" style="margin-left: -130px;">
                                 <tbody>
                                     <tr>
                                         <th>Judul</th>

@@ -116,8 +116,8 @@ class Kategori extends Component
         
         return view('livewire.petugas.kategori', [
             'kategori' => $this->search === null ?
-                ModelsKategori::latest()->paginate(5) :
-                ModelsKategori::latest()->where('nama', 'like', '%' . $this->search . '%')->paginate(5)
+                ModelsKategori::latest()->paginate(10) :
+                ModelsKategori::latest()->where('nama', 'like', '%' . $this->search . '%')->paginate(10)
 
         ]);
     }

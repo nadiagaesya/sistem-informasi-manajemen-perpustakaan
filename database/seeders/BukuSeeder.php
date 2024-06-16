@@ -411,7 +411,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Theresia Sudarwati, Eudia Grace',
             'penerbit_id' => 5,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 5
         ]);
 
@@ -422,7 +422,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Theresia Sudarwati, Eudia Grace',
             'penerbit_id' => 5,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 5
         ]);
 
@@ -444,7 +444,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Sadi, dkk',
             'penerbit_id' => 5,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 5
         ]);
 
@@ -455,7 +455,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Sadi, dkk',
             'penerbit_id' => 5,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 5
         ]);
 
@@ -477,7 +477,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 3
         ]);
 
@@ -488,7 +488,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 3
         ]);
 
@@ -499,7 +499,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 3
         ]);
 
@@ -521,7 +521,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -532,7 +532,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 2
         ]);
 
@@ -554,7 +554,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -565,7 +565,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -576,7 +576,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 2
         ]);
 
@@ -598,7 +598,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 4
         ]);
 
@@ -609,7 +609,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 4
         ]);
 
@@ -631,7 +631,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -642,7 +642,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -653,7 +653,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 2
         ]);
 
@@ -675,7 +675,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -686,7 +686,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 2
         ]);
 
@@ -708,7 +708,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -719,7 +719,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -730,7 +730,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 2
         ]);
 
@@ -752,7 +752,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -763,7 +763,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -774,7 +774,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 2
         ]);
 
@@ -796,7 +796,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -807,7 +807,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -818,7 +818,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 2
         ]);
 
@@ -842,7 +842,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 6,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 5
         ]);
 
@@ -853,7 +853,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 6,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 5
         ]);
 
@@ -875,7 +875,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 6,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 5
         ]);
 
@@ -886,7 +886,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 6,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 5
         ]);
 
@@ -909,7 +909,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Unggul Sudarmo',
             'penerbit_id' => 5,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 2
         ]);
 
@@ -920,7 +920,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Unggul Sudarmo',
             'penerbit_id' => 5,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 5
         ]);
 
@@ -953,7 +953,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Marthen Kanginan',
             'penerbit_id' => 5,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 2,
             'stok' => 5
         ]);
 
@@ -964,7 +964,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Marthen Kanginan',
             'penerbit_id' => 5,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 5
         ]);
 
@@ -987,7 +987,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 40
         ]);
         Buku::create([
@@ -997,7 +997,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 15
         ]);
         Buku::create([
@@ -1017,7 +1017,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 40
         ]);
         Buku::create([
@@ -1027,7 +1027,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 15
         ]);
         Buku::create([
@@ -1047,7 +1047,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 40
         ]);
         Buku::create([
@@ -1057,7 +1057,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 15
         ]);
         Buku::create([
@@ -1077,7 +1077,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 40
         ]);
         Buku::create([
@@ -1087,7 +1087,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 15
         ]);
         Buku::create([
@@ -1097,7 +1097,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 7,
             'stok' => 15
         ]);
         Buku::create([
@@ -1117,7 +1117,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 40
         ]);
         Buku::create([
@@ -1127,7 +1127,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 15
         ]);
         Buku::create([
@@ -1147,7 +1147,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 40
         ]);
         Buku::create([
@@ -1157,7 +1157,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 40
         ]);
         Buku::create([
@@ -1167,7 +1167,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 15
         ]);
         Buku::create([
@@ -1177,7 +1177,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 15
         ]);
         Buku::create([
@@ -1207,7 +1207,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 40
         ]);
         Buku::create([
@@ -1217,7 +1217,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 40
         ]);
         Buku::create([
@@ -1227,7 +1227,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 15
         ]);
         Buku::create([
@@ -1237,7 +1237,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 15
         ]);
         Buku::create([
@@ -1260,7 +1260,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Arif Priadi, Yanti Herlanti',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 30
         ]);
         Buku::create([
@@ -1270,7 +1270,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Arif Priadi, Yanti Herlanti',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 40
         ]);
         Buku::create([
@@ -1290,7 +1290,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Kusnandar, Ifni Muharmanm, Mirna Indrianti',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 30
         ]);
         Buku::create([
@@ -1300,7 +1300,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 40
         ]);
         Buku::create([
@@ -1320,7 +1320,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Muchtaridi',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 30
         ]);
         Buku::create([
@@ -1330,7 +1330,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Muchtaridi',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 40
         ]);
         Buku::create([
@@ -1350,7 +1350,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Bambang Ruwanto',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 30
         ]);
         Buku::create([
@@ -1360,7 +1360,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Bambang Ruwanto',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 40
         ]);
         Buku::create([
@@ -1380,7 +1380,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 30
         ]);
         Buku::create([
@@ -1390,7 +1390,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Sri Sutanti',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 30
         ]);
         Buku::create([
@@ -1400,7 +1400,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yulmadia Yulir',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 30
         ]);
         Buku::create([
@@ -1410,7 +1410,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yulmadia Yulir',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 30
         ]);
         Buku::create([
@@ -1433,7 +1433,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 60
         ]);
         Buku::create([
@@ -1443,7 +1443,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 60
         ]);
         Buku::create([
@@ -1463,7 +1463,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 40
         ]);
         Buku::create([
@@ -1473,7 +1473,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 10
         ]);
         Buku::create([
@@ -1493,7 +1493,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 210
         ]);
         Buku::create([
@@ -1503,7 +1503,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 120
         ]);
 
@@ -1516,7 +1516,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yogi Anggraena, Wikan Budi Utami',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 3,
             'stok' => 11
         ]);
         Buku::create([
@@ -1526,7 +1526,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yogi Anggraena, Wikan Budi Utami',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 11
         ]);
         Buku::create([
@@ -1546,7 +1546,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'R. Arifin Nugroho',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 11
         ]);
         Buku::create([
@@ -1556,7 +1556,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'R. Arifin Nugroho',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 11
         ]);
         Buku::create([
@@ -1576,7 +1576,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Sri Utami',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 11
         ]);
         Buku::create([
@@ -1586,7 +1586,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Sri Utami',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 11
         ]);
         Buku::create([
@@ -1606,7 +1606,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yuni Supriyanti',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 11
         ]);
         Buku::create([
@@ -1616,7 +1616,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yuni Supriyanti',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 11
         ]);
         Buku::create([
@@ -1636,7 +1636,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Adi Gunanto',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 11
         ]);
         Buku::create([
@@ -1646,7 +1646,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Adi Gunanto',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 11
         ]);
         Buku::create([
@@ -1666,7 +1666,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Bagas Ramadhadika',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 11
         ]);
         Buku::create([
@@ -1676,7 +1676,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Bagas Ramadhadika',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 11
         ]);
         Buku::create([
@@ -1696,7 +1696,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Endang Mulyadi',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 11
         ]);
         Buku::create([
@@ -1706,7 +1706,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Endang Mulyadi',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 8,
             'stok' => 11
         ]);
         Buku::create([
@@ -1726,7 +1726,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Adam Hermawan',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 11
         ]);
         Buku::create([
@@ -1736,7 +1736,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Adam Hermawan, Indah Wukir S',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 11
         ]);
         Buku::create([
@@ -1756,7 +1756,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Gusmanti Ning Rahayu, Asep Mahdi',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 11
         ]);
         Buku::create([
@@ -1766,7 +1766,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Asep Mahdi',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 11
         ]);
         Buku::create([
@@ -1786,7 +1786,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Zahra Kamilati dkk',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 11
         ]);
         Buku::create([
@@ -1796,7 +1796,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Zahra Kamilati dkk',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 11
         ]);
         Buku::create([
@@ -1820,7 +1820,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Novianto Kurnia dkk',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 35
         ]);
         Buku::create([
@@ -1830,7 +1830,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Novianto Kurnia dkk',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 35
         ]);
         Buku::create([
@@ -1850,7 +1850,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Linawati, Dadi',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 30
         ]);
         Buku::create([
@@ -1860,7 +1860,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 30
         ]);
         Buku::create([
@@ -1880,7 +1880,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Siti Nurma Nugraha, Retno Bangun Setiawan',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 30
         ]);
         Buku::create([
@@ -1890,7 +1890,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 30
         ]);
         Buku::create([
@@ -1910,7 +1910,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Abdul Haris W',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 30
         ]);
         Buku::create([
@@ -1920,7 +1920,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 30
         ]);
         Buku::create([
@@ -1940,7 +1940,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Rudarti',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 30
         ]);
         Buku::create([
@@ -1950,7 +1950,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 30
         ]);
         Buku::create([
@@ -1970,7 +1970,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Endang Mulyadi, Erick Wicaksono',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 35
         ]);
         Buku::create([
@@ -1980,7 +1980,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Endang Mulyadi, Erick Wicaksono',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 30
         ]);
         Buku::create([
@@ -2000,7 +2000,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yad Mulyadi dkk',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 30
         ]);
         Buku::create([
@@ -2010,7 +2010,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yad Mulyadi dkk',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 30
         ]);
         Buku::create([
@@ -2030,7 +2030,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Adi Gunanto',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 30
         ]);
         Buku::create([
@@ -2040,7 +2040,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Hermawan dkk',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 30
         ]);
         Buku::create([
@@ -2062,7 +2062,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 3
         ]);
         Buku::create([
@@ -2072,7 +2072,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 3
         ]);
         Buku::create([
@@ -2092,7 +2092,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 4
         ]);
         Buku::create([
@@ -2112,7 +2112,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 5
         ]);
         Buku::create([
@@ -2132,7 +2132,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 3
         ]);
         Buku::create([
@@ -2152,7 +2152,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 3
         ]);
         Buku::create([
@@ -2162,7 +2162,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 3
         ]);
         Buku::create([
@@ -2182,7 +2182,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Lathifa Royani Fadhila',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 4,
             'stok' => 3
         ]);
         Buku::create([
@@ -2192,7 +2192,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 3
         ]);
         Buku::create([
@@ -2212,7 +2212,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 4
         ]);
         Buku::create([
@@ -2222,7 +2222,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 4
         ]);
         Buku::create([
@@ -2242,7 +2242,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Aji Arifin',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 3
         ]);
         Buku::create([
@@ -2252,7 +2252,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 3
         ]);
         Buku::create([
@@ -2274,7 +2274,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Suparmin, Putri Estikarini',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 4
         ]);
         Buku::create([
@@ -2284,7 +2284,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Ririn Sfitri',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 4
         ]);
         Buku::create([
@@ -2294,7 +2294,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 3
         ]);
         Buku::create([
@@ -2304,7 +2304,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 4
         ]);
         Buku::create([
@@ -2314,7 +2314,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Agung Budi Raharjo',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 2
         ]);
         Buku::create([
@@ -2324,7 +2324,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Sari Dwi Astuti',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 4
         ]);
         Buku::create([
@@ -2334,7 +2334,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Lia Candra Rufikasari',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 3
         ]);
         Buku::create([
@@ -2344,7 +2344,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Eko Cahyono, Dwi Maryati',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 2
         ]);
         Buku::create([
@@ -2354,7 +2354,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 100
         ]);
         Buku::create([
@@ -2364,7 +2364,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yuni Prihartanti, Naela Khikmiah',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 9,
             'stok' => 200
         ]);
         Buku::create([
@@ -2386,7 +2386,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Kurniawati, Retno Ayu Wardani',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 4
         ]);
         Buku::create([
@@ -2406,7 +2406,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Annisa Kusumaningrum, Mamluatul Hikmah',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 4
         ]);
         Buku::create([
@@ -2426,7 +2426,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 3
         ]);
         Buku::create([
@@ -2446,7 +2446,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Catur Supriyanto, Fitri Astuti',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 4
         ]);
         Buku::create([
@@ -2466,7 +2466,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 2
         ]);
         Buku::create([
@@ -2486,7 +2486,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 4
         ]);
         Buku::create([
@@ -2506,7 +2506,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 3
         ]);
         Buku::create([
@@ -2526,7 +2526,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Esti Wulandari, Endra Kusuma',
             'penerbit_id' => 10,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 2
         ]);
         Buku::create([
@@ -2549,7 +2549,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 2
         ]);
         Buku::create([
@@ -2559,7 +2559,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 3
         ]);
         Buku::create([
@@ -2569,7 +2569,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 4
         ]);
         Buku::create([
@@ -2579,7 +2579,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 2
         ]);
         Buku::create([
@@ -2589,7 +2589,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 3
         ]);
         Buku::create([
@@ -2599,7 +2599,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 9
         ]);
         Buku::create([
@@ -2609,7 +2609,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 8
         ]);
         Buku::create([
@@ -2619,7 +2619,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 2
         ]);
         Buku::create([
@@ -2629,7 +2629,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 5,
             'stok' => 2
         ]);
         Buku::create([
@@ -2639,7 +2639,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 1
         ]);
         Buku::create([
@@ -2649,7 +2649,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 2
         ]);
 
@@ -2661,7 +2661,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Unggul Sudarmo',
             'penerbit_id' => 5,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 3
         ]);
         Buku::create([
@@ -2671,7 +2671,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Ni ketut Lasmi',
             'penerbit_id' => 5,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 3
         ]);
         Buku::create([
@@ -2681,7 +2681,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Irnaningtyas-Sylva Sagita',
             'penerbit_id' => 5,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 4
         ]);
 
@@ -2693,7 +2693,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Muhajir',
             'penerbit_id' => 5,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 273
         ]);
         Buku::create([
@@ -2703,7 +2703,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Sri Winarni dkk',
             'penerbit_id' => 5,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 273
         ]);
         Buku::create([
@@ -2713,7 +2713,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Irnaningtyas-Sylva Sagita',
             'penerbit_id' => 5,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 124
         ]);
         Buku::create([
@@ -2723,7 +2723,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Unggul Sudarmo',
             'penerbit_id' => 5,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 123
         ]);
         Buku::create([
@@ -2733,7 +2733,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Ni Ketut Lasmi',
             'penerbit_id' => 5,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 93
         ]);
 
@@ -2745,7 +2745,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 1
         ]);
         Buku::create([
@@ -2755,7 +2755,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 270
         ]);
         Buku::create([
@@ -2765,7 +2765,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 270
         ]);
         Buku::create([
@@ -2775,7 +2775,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 270
         ]);
         Buku::create([
@@ -2785,7 +2785,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 270
         ]);
         Buku::create([
@@ -2795,7 +2795,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 270
         ]);
         Buku::create([
@@ -2805,7 +2805,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 270
         ]);
         Buku::create([
@@ -2815,7 +2815,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 270
         ]);
         Buku::create([
@@ -2825,7 +2825,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 210
         ]);
         Buku::create([
@@ -2835,7 +2835,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 65
         ]);
         Buku::create([
@@ -2845,7 +2845,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 5
         ]);
         Buku::create([
@@ -2855,7 +2855,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 1
         ]);
         Buku::create([
@@ -2865,7 +2865,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 67
         ]);
         Buku::create([
@@ -2875,7 +2875,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 6
         ]);
 
@@ -2887,7 +2887,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 2
         ]);
         Buku::create([
@@ -2897,7 +2897,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 3
         ]);
         Buku::create([
@@ -2907,7 +2907,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 4
         ]);
         Buku::create([
@@ -2917,7 +2917,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 10,
             'stok' => 4
         ]);
         Buku::create([
@@ -2927,7 +2927,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 3
         ]);
         Buku::create([
@@ -2937,7 +2937,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 2
         ]);
         Buku::create([
@@ -2947,7 +2947,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 5
         ]);
         Buku::create([
@@ -2957,7 +2957,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 3
         ]);
         Buku::create([
@@ -2967,7 +2967,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 1
         ]);
         Buku::create([
@@ -2977,7 +2977,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 3
         ]);
         Buku::create([
@@ -2987,7 +2987,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 3
         ]);
         Buku::create([
@@ -2997,7 +2997,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 2
         ]);
 
@@ -3009,7 +3009,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 270
         ]);
         Buku::create([
@@ -3019,7 +3019,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 270
         ]);
         Buku::create([
@@ -3029,7 +3029,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 270
         ]);
         Buku::create([
@@ -3039,7 +3039,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 270
         ]);
         Buku::create([
@@ -3049,7 +3049,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 180
         ]);
         Buku::create([
@@ -3059,7 +3059,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 95
         ]);
         Buku::create([
@@ -3069,7 +3069,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 65
         ]);
         Buku::create([
@@ -3079,7 +3079,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 150
         ]);
         Buku::create([
@@ -3089,7 +3089,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 65
         ]);
         Buku::create([
@@ -3099,7 +3099,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 65
         ]);
         Buku::create([
@@ -3109,7 +3109,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 65
         ]);
         Buku::create([
@@ -3119,7 +3119,7 @@ class BukuSeeder extends Seeder
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 210
         ]);
 
@@ -3131,7 +3131,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Rina Laelasari,Dkk',
             'penerbit_id' => 3,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 213
         ]);
         Buku::create([
@@ -3141,7 +3141,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Rina Laelasari,Dkk',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 213
         ]);
         Buku::create([
@@ -3151,7 +3151,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Dikdik Pebriansyah',
             'penerbit_id' => 3,
             'kategori_id' => 3,
-            'rak_id' => 12,
+            'rak_id' => 11,
             'stok' => 67
         ]);
 
@@ -3163,7 +3163,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Restu Ningsih Budi Astuti dan Sri Widiyani',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 66
         ]);
         Buku::create([
@@ -3173,7 +3173,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yuni Prihartanti',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 273
         ]);
         Buku::create([
@@ -3183,7 +3183,7 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yuni Prihartanti, Sari Ratnaningsih',
             'penerbit_id' => 10,
             'kategori_id' => 2,
-            'rak_id' => 12,
+            'rak_id' => 6,
             'stok' => 273
         ]);
     }

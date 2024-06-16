@@ -131,9 +131,9 @@ class Rak extends Component
     public function render()
     {
         if ($this->search) {
-            $raks = ModelsRak::latest()->where('rak', $this->search)->paginate(5);
+            $raks = ModelsRak::latest()->where('rak', $this->search)->paginate(10);
         } else {
-            $raks = ModelsRak::latest()->paginate(5);
+            $raks = ModelsRak::latest()->paginate(10);
         }
         $count = ModelsRak::select('rak')->distinct()->get();
 
