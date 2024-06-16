@@ -418,8 +418,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Bahasa Inggris',
             'slug' => Str::slug('Bahasa-Inggris'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => 'Theresia Sudarwati',
+            'sampul' => 'buku/pathway-to-english-2-XI-2013.jpg',
+            'penulis' => 'Theresia Sudarwati, Eudia Grace',
             'penerbit_id' => 5,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -916,7 +916,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Kimia',
             'slug' => Str::slug('Kimia'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/kimia-kelompok-peminatan-2-XI-2013.jpg',
             'penulis' => 'Unggul Sudarmo',
             'penerbit_id' => 5,
             'kategori_id' => 3,
@@ -960,7 +960,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Fisika',
             'slug' => Str::slug('Fisika'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/fisika-kelompok-peminatan-2-XI-2013.jpg',
             'penulis' => 'Marthen Kanginan',
             'penerbit_id' => 5,
             'kategori_id' => 3,
@@ -993,7 +993,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Pendidikan Pancasila dan Kewarganegaraan',
             'slug' => Str::slug('ppkn'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/pendidikan-pancasila-dan-kewarganegaraan-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -1023,7 +1023,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Bahasa Indonesia',
             'slug' => Str::slug('Bahasa-Indonesia'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/bahasa-indonesia-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -1053,7 +1053,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Matematika',
             'slug' => Str::slug('Matematika'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/matematika-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -1083,7 +1083,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Sejarah Indonesia A',
             'slug' => Str::slug('Sejarah-Indonesia-A'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/sejarah-indonesia-semester1-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -1093,7 +1093,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Sejarah Indonesia B',
             'slug' => Str::slug('Sejarah-Indonesia-B'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/sejarah-indonesia-semester2-XI-2017.jpeg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -1123,7 +1123,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan',
             'slug' => Str::slug('pjok'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/pendidikan-jasmani-olahraga-dan-kesehatan-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -1163,7 +1163,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Seni Budaya A',
             'slug' => Str::slug('Seni-Budaya-A'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/seni-budaya-semester1-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -1173,7 +1173,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Seni Budaya B',
             'slug' => Str::slug('Seni-Budaya-B'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/seni-budaya-semester2-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -1223,7 +1223,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Prakarya dan Kewirausahaan A',
             'slug' => Str::slug('Prakarya-dan-Kewirausahaan-A'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/prakarya-dan-kewirausahaan-semester1-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -1233,7 +1233,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Prakarya dan Kewirausahaan B',
             'slug' => Str::slug('Prakarya-dan-Kewirausahaan-B'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/prakarya-dan-kewirausahaan-semester2-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -1266,8 +1266,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Biologi 2',
             'slug' => Str::slug('Biologi-2'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/biologi-XI.jpg',
+            'penulis' => 'Arif Priadi, Yanti Herlanti',
             'penerbit_id' => 3,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -1326,8 +1326,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Kimia 2',
             'slug' => Str::slug('Kimia-2'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/kimia-2-XI-2013.jpg',
+            'penulis' => 'Muchtaridi',
             'penerbit_id' => 3,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -1356,8 +1356,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Fisika 2',
             'slug' => Str::slug('Fisika-2'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/fisika-2-XI-2013.jpg',
+            'penulis' => 'Bambang Ruwanto',
             'penerbit_id' => 3,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -1400,6 +1400,16 @@ class BukuSeeder extends Seeder
             'penulis' => 'Yulmadia Yulir',
             'penerbit_id' => 3,
             'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 30
+        ]);
+        Buku::create([
+            'judul' => 'Geografi 2',
+            'slug' => Str::slug('Geografi-2'),
+            'sampul' => 'buku/geografi-XI.jpeg',
+            'penulis' => 'Yulmadia Yulir',
+            'penerbit_id' => 3,
+            'kategori_id' => 3,
             'rak_id' => 12,
             'stok' => 30
         ]);
@@ -1816,8 +1826,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Jelajah Matematika Peminatan XI',
             'slug' => Str::slug('Jelajah-Matematika-Peminatan-XI'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/peminatan-mipa-matematika-XI.jpg',
+            'penulis' => 'Novianto Kurnia dkk',
             'penerbit_id' => 3,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -1936,7 +1946,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Geografi SMA Kelas XI',
             'slug' => Str::slug('Geografi-SMA-Kelas-XI'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/sampul-buku-XI',
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 3,
@@ -1966,8 +1976,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Ekonomi SMA Kelas XI',
             'slug' => Str::slug('Ekonomi-SMA-Kelas-XI'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/ekonomi-XI.jpg',
+            'penulis' => 'Endang Mulyadi, Erick Wicaksono',
             'penerbit_id' => 3,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -1996,8 +2006,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Sosiologi SMA Kelas XI',
             'slug' => Str::slug('Sosiologi-SMA-Kelas-XI'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/sosiologi-XI.jpeg',
+            'penulis' => 'Yad Mulyadi dkk',
             'penerbit_id' => 3,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -2026,8 +2036,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Sejarah Peminatan Kelas XI',
             'slug' => Str::slug('Sejarah-Peminatan-Kelas-XI'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/sejarah-XI.jpg',
+            'penulis' => 'Hermawan dkk',
             'penerbit_id' => 3,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -2350,8 +2360,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Bahasa dan Sastra Inggris (MINAT BAHASA) SMA 11',
             'slug' => Str::slug('Bahasa-dan-Sastra-Inggris-(MINAT-BAHASA)-SMA-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/bahasa-dan-sastra-inggris-XI.jpeg',
+            'penulis' => 'Yuni Prihartanti, Naela Khikmiah',
             'penerbit_id' => 10,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -2372,8 +2382,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Negara Maju-Matematika (MINAT IPA) 11',
             'slug' => Str::slug('Negara-Maju-Matematika-(MINAT-IPA)-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/matematika-XI.jpeg',
+            'penulis' => 'Kurniawati, Retno Ayu Wardani',
             'penerbit_id' => 10,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -2392,8 +2402,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Negara Maju-Biologi (MINAT IPA) 11',
             'slug' => Str::slug('Negara-Maju-Biologi-(MINAT-IPA)-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/biologi-XI.jpeg',
+            'penulis' => 'Annisa Kusumaningrum, Mamluatul Hikmah',
             'penerbit_id' => 10,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -2432,8 +2442,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Negara Maju-Kimia (MINAT IPA) 11',
             'slug' => Str::slug('Negara-Maju-Kimia-(MINAT-IPA)-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/kimia-XI.jpeg',
+            'penulis' => 'Catur Supriyanto, Fitri Astuti',
             'penerbit_id' => 10,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -2512,8 +2522,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Negara Maju-Sejarah (MINAT IPS) 11',
             'slug' => Str::slug('Negara-Maju-Sejarah-(MINAT-IPS)-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => '-',
+            'sampul' => 'buku/sejarah-XI.jpeg',
+            'penulis' => 'Esti Wulandari, Endra Kusuma',
             'penerbit_id' => 10,
             'kategori_id' => 3,
             'rak_id' => 12,
@@ -2689,7 +2699,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Pendidikan Jasmani, Olahraga, dan Kesehatan Kelas 11',
             'slug' => Str::slug('Pendidikan-Jasmani-Olahraga-dan-Kesehatan-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/PJOK-XI.jpg',
             'penulis' => 'Sri Winarni dkk',
             'penerbit_id' => 5,
             'kategori_id' => 3,
@@ -2719,7 +2729,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Fisika Kelas 11',
             'slug' => Str::slug('Fisika -Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/fisika-kelompok-mata-pelajaran-pilihan-XI.jpg',
             'penulis' => 'Ni Ketut Lasmi',
             'penerbit_id' => 5,
             'kategori_id' => 3,
@@ -2851,7 +2861,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Pendidikan Agama Kristen dan Budi Pekerti Kelas 11',
             'slug' => Str::slug('Pendidikan-Agama-Kristen-dan-Budi-Pekerti-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/pendidikan-agama-kristen-dan-budi-pekerti-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -2861,7 +2871,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Pendidikan Agama Katholik dan Budi Pekerti Kelas 11',
             'slug' => Str::slug('Pendidikan-Agama-Katholik-dan-Budi-Pekerti-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/pendidikan-agama-katolik-dan-budi-pekerti-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -2903,7 +2913,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Buku Panduan Guru Matematika Tingkat Lanjut Kelas 11',
             'slug' => Str::slug('Buku-Panduan-Guru-Matematika-Tingkat-Lanjut-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/buku-panduan-guru-matematika-XI-2021.jpeg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -2923,7 +2933,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Buku Panduan Guru Geografi Kelas 11',
             'slug' => Str::slug('Buku-Panduan-Guru-Geografi-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/buku-panduan-guru-geografi-XI.jpeg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -2933,7 +2943,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Buku Panduan Guru Ekonomi Kelas 11',
             'slug' => Str::slug('Buku-Panduan-Guru-Ekonomi-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/buku-panduan-guru-ekonomi-XI-2021.jpeg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -2995,7 +3005,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Pendidikan Pancasila Dan Kewarganegaraan Kelas 11',
             'slug' => Str::slug('Pendidikan-Pancasila-Dan-Kewarganegaraan-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/pendidikan-pancasila-dan-kewarganegaraan-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -3005,7 +3015,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Cerdas Cergas Berbahasa dan Bersastra Indonesia Kelas 11',
             'slug' => Str::slug('Cerdas-Cergas-Berbahasa-dan-Bersastra-Indonesia-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/cerdas-cergas-berbahasa-dan-bersastra-indonesia-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -3025,7 +3035,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Matematika Kelas 11',
             'slug' => Str::slug('Matematika-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/matematika-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -3035,7 +3045,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Matematika Tingkat Lanjut Kelas 11',
             'slug' => Str::slug('Matematika-Tingkat-Lanjut-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/matematika-tingkat-lanjut-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -3045,7 +3055,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Sosiologi Kelas 11',
             'slug' => Str::slug('Sosiologi-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/sosiologi-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -3055,7 +3065,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Geografi Kelas 11',
             'slug' => Str::slug('Geografi-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/geografi-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -3075,7 +3085,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Sejarah Kelas 11',
             'slug' => Str::slug('Sejarah-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/sejarah-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -3085,7 +3095,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Informatika Kelas 11',
             'slug' => Str::slug('Informatika-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/informatika-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -3095,7 +3105,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Bahasa Inggris Tingkat Lanjut Kelas 11',
             'slug' => Str::slug('Bahasa-Inggris-Tingkat-Lanjut-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/bahasa-inggris-tingkat-lanjut-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -3105,7 +3115,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Pendidikan Agama Islam Dan Budi Pekerti Kelas 11',
             'slug' => Str::slug('Pendidikan-Agama-Islam-Dan-Budi-Pekerti-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/pendidikan-agama-islam-dan-budi-pekerti-XI-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
             'kategori_id' => 3,
@@ -3127,7 +3137,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Prakarya Kelas 11',
             'slug' => Str::slug('Prakarya-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
+            'sampul' => 'buku/prakarya-dan-kewirausahaan-2-XI.jpg',
             'penulis' => 'Rina Laelasari,Dkk',
             'penerbit_id' => 3,
             'kategori_id' => 3,
@@ -3169,8 +3179,8 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Bahasa Inggris Esensi SMA Merdeka Kelas 11',
             'slug' => Str::slug('Bahasa-Inggris-Esensi-SMA-Merdeka-Kelas-11'),
-            'sampul' => 'buku/sampul-buku-XI.png',
-            'penulis' => 'Yuni Prihartanti',
+            'sampul' => 'buku/bahasa-inggris-XI.jpg',
+            'penulis' => 'Yuni Prihartanti, Sari Ratnaningsih',
             'penerbit_id' => 10,
             'kategori_id' => 2,
             'rak_id' => 12,
