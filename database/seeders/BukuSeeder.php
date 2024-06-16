@@ -2662,5 +2662,443 @@ class BukuSeeder extends Seeder
         ]);
 
         //PENGADAAN BUKU PEGANGAN SISWA (KELAS X & XI IKM)
+        Buku::create([
+            'judul' => 'Pendidikan Kepercayaan Terhadap Tuhan Yang Maha Esa Dan Budi Pekerti Kelas 10',
+            'slug' => Str::slug('Pendidikan-Kepercayaan-Terhadap-Tuhan-Yang-Maha-Esa-Dan-Budi-Pekerti-kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 1
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Pancasila Dan Kewarganegaraan Kelas 10',
+            'slug' => Str::slug('Pendidikan-Pancasila-Dan-Kewarganegaraan-kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 270
+        ]);
+        Buku::create([
+            'judul' => 'Cerdas Cergas Berbahasa dan Bersastra Indonesia Kelas 10',
+            'slug' => Str::slug('Cerdas-Cergas-Berbahasa-dan-Bersastra-Indonesia-kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 270
+        ]);
+        Buku::create([
+            'judul' => 'Matematika Kelas 10',
+            'slug' => Str::slug('Matematika-kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 270
+        ]);
+        Buku::create([
+            'judul' => 'Ilmu Pengetahuan Alam Kelas 10',
+            'slug' => Str::slug('Ilmu-Pengetahuan-Alam-kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 270
+        ]);
+        Buku::create([
+            'judul' => 'Ilmu Pengetahuan Sosial Kelas 10',
+            'slug' => Str::slug('Ilmu-Pengetahuan-Sosial-kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 270
+        ]);
+        Buku::create([
+            'judul' => 'Informatika Kelas 10',
+            'slug' => Str::slug('Informatika-kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 270
+        ]);
+        Buku::create([
+            'judul' => 'Sejarah Kelas 10',
+            'slug' => Str::slug('Sejarah-kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 270
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Agama Islam dan Budi Pekerti Kelas 10',
+            'slug' => Str::slug('Pendidikan-Agama-Islam-dan-Budi-Pekerti-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 210
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Agama Kristen dan Budi Pekerti Kelas 10',
+            'slug' => Str::slug('Pendidikan-Agama-Kristen-dan-Budi-Pekerti-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 65
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Agama Katholik dan Budi Pekerti Kelas 10',
+            'slug' => Str::slug('Pendidikan-Agama-Katholik-dan-Budi-Pekerti-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Kepercayaan Terhadap Tuhan Yang Maha Esa Dan Budi Pekerti Kelas 11',
+            'slug' => Str::slug('Pendidikan-Kepercayaan-Terhadap-Tuhan-Yang-Maha-Esa-Dan-Budi-Pekerti-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 1
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Agama Kristen dan Budi Pekerti Kelas 11',
+            'slug' => Str::slug('Pendidikan-Agama-Kristen-dan-Budi-Pekerti-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 67
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Agama Katholik dan Budi Pekerti Kelas 11',
+            'slug' => Str::slug('Pendidikan-Agama-Katholik-dan-Budi-Pekerti-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 6
+        ]);
+
+        //PENGADAAN BUKU PEGANGAN GURU (KELAS XI IKM)
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Pendidikan Pancasila dan Kewarganegaraan Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Pendidikan-Pancasila-dan-Kewarganegaraan-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Cerdas Cergas Berbahasa dan Bersastra Indonesia Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Cerdas-Cergas-Berbahasa-dan-Bersastra-Indonesia-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Matematika Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Matematika-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Matematika Tingkat Lanjut Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Matematika-Tingkat-Lanjut-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 4
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Sosiologi Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Sosiologi-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Geografi Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Geografi-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Ekonomi Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Ekonomi-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 5
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Sejarah Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Sejarah-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Informatika Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Informatika-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 1
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru Bahasa Inggris Tingkat Lanjut Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Bahasa-Inggris-Tingkat-Lanjut-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru  Pendidikan Jasmani, Olahraga dan Kesehatan Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Pendidikan-Jasmani,-Olahraga-dan-Kesehatan-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 3
+        ]);
+        Buku::create([
+            'judul' => 'Buku Panduan Guru  Pendidikan Agama Islam Dan Budi Pekerti Kelas 11',
+            'slug' => Str::slug('Buku-Panduan-Guru-Pendidikan-Agama-Islam-Dan-Budi-Pekerti-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 2
+        ]);
+
+        //PENGADAAN BUKU PEGANGAN SISWA (XI IKM)
+        Buku::create([
+            'judul' => 'Pendidikan Pancasila Dan Kewarganegaraan Kelas 11',
+            'slug' => Str::slug('Pendidikan-Pancasila-Dan-Kewarganegaraan-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 270
+        ]);
+        Buku::create([
+            'judul' => 'Cerdas Cergas Berbahasa dan Bersastra Indonesia Kelas 11',
+            'slug' => Str::slug('Cerdas-Cergas-Berbahasa-dan-Bersastra-Indonesia-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 270
+        ]);
+        Buku::create([
+            'judul' => 'Matematika Kelas 11',
+            'slug' => Str::slug('Matematika-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 270
+        ]);
+        Buku::create([
+            'judul' => 'Matematika Tingkat Lanjut Kelas 11',
+            'slug' => Str::slug('Matematika-Tingkat-Lanjut-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 180
+        ]);
+        Buku::create([
+            'judul' => 'Sosiologi Kelas 11',
+            'slug' => Str::slug('Sosiologi-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 95
+        ]);
+        Buku::create([
+            'judul' => 'Geografi Kelas 11',
+            'slug' => Str::slug('Geografi-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 65
+        ]);
+        Buku::create([
+            'judul' => 'Ekonomi Kelas 11',
+            'slug' => Str::slug('Ekonomi-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 150
+        ]);
+        Buku::create([
+            'judul' => 'Sejarah Kelas 11',
+            'slug' => Str::slug('Sejarah-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 65
+        ]);
+        Buku::create([
+            'judul' => 'Informatika Kelas 11',
+            'slug' => Str::slug('Informatika-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 65
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Inggris Tingkat Lanjut Kelas 11',
+            'slug' => Str::slug('Bahasa-Inggris-Tingkat-Lanjut-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 65
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Agama Islam Dan Budi Pekerti Kelas 11',
+            'slug' => Str::slug('Pendidikan-Agama-Islam-Dan-Budi-Pekerti-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => '-',
+            'penerbit_id' => 2,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 210
+        ]);
+
+        //PENGADAAN BUKU PEGANGAN SISWA (KELAS X & XI IKM)
+        Buku::create([
+            'judul' => 'Prakarya Kelas 10',
+            'slug' => Str::slug('Prakarya-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Rina Laelasari,Dkk',
+            'penerbit_id' => 3,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 213
+        ]);
+        Buku::create([
+            'judul' => 'Prakarya Kelas 11',
+            'slug' => Str::slug('Prakarya-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Rina Laelasari,Dkk',
+            'penerbit_id' => 3,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 213
+        ]);
+        Buku::create([
+            'judul' => 'Pendidikan Seni Tari Kelas 11',
+            'slug' => Str::slug('Pendidikan-Seni-Tari-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Dikdik Pebriansyah',
+            'penerbit_id' => 3,
+            'kategori_id' => 3,
+            'rak_id' => 12,
+            'stok' => 67
+        ]);
+
+        //PENGADAAN BUKU PEGANGAN SISWA (KELAS X & XI IKM)
+        Buku::create([
+            'judul' => 'Seni dan Budaya (Seni Tari) Kelas 10',
+            'slug' => Str::slug('Seni-dan-Budaya-(Seni Tari)-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Restu Ningsih Budi Astuti dan Sri Widiyani',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 66
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Inggris Esensi SMA Merdeka Kelas 10',
+            'slug' => Str::slug('Bahasa-Inggris-Esensi-SMA-Merdeka-Kelas-10'),
+            'sampul' => 'buku/sampul-buku-X.png',
+            'penulis' => 'Yuni Prihartanti',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 273
+        ]);
+        Buku::create([
+            'judul' => 'Bahasa Inggris Esensi SMA Merdeka Kelas 11',
+            'slug' => Str::slug('Bahasa-Inggris-Esensi-SMA-Merdeka-Kelas-11'),
+            'sampul' => 'buku/sampul-buku-XI.png',
+            'penulis' => 'Yuni Prihartanti',
+            'penerbit_id' => 10,
+            'kategori_id' => 2,
+            'rak_id' => 12,
+            'stok' => 273
+        ]);
     }
 }
