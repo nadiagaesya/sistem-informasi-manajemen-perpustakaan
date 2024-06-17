@@ -487,8 +487,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-bahasa-inggris-X-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 17,
-            'rak_id' => 2,
+            'kategori_id' => 5,
+            'rak_id' => 17,
             'stok' => 3
         ]);
 
@@ -498,8 +498,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-bahasa-inggris-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 17,
-            'rak_id' => 7,
+            'kategori_id' => 5,
+            'rak_id' => 17,
             'stok' => 3
         ]);
 
@@ -509,8 +509,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-bahasa-inggris-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 17,
-            'rak_id' => 13,
+            'kategori_id' => 5,
+            'rak_id' => 17,
             'stok' => 3
         ]);
 
@@ -531,8 +531,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-pendidikan-agama-islam-dan-budi-pekerti-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 17,
-            'rak_id' => 7,
+            'kategori_id' => 5,
+            'rak_id' => 17,
             'stok' => 2
         ]);
 
@@ -542,8 +542,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-pendidikan-agama-islam-dan-budi-pekerti-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 17,
-            'rak_id' => 13,
+            'kategori_id' => 5,
+            'rak_id' => 17,
             'stok' => 2
         ]);
 
@@ -564,8 +564,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-bahasa-indonesia-X-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 18,
-            'rak_id' => 2,
+            'kategori_id' => 5,
+            'rak_id' => 18,
             'stok' => 2
         ]);
 
@@ -575,8 +575,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-bahasa-indonesia-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 18,
-            'rak_id' => 7,
+            'kategori_id' => 5,
+            'rak_id' => 18,
             'stok' => 2
         ]);
 
@@ -586,8 +586,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-bahasa-indonesia-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 18,
-            'rak_id' => 13,
+            'kategori_id' => 5,
+            'rak_id' => 18,
             'stok' => 2
         ]);
 
@@ -597,8 +597,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-panduan-guru-matematika-X-2021.jpeg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 18,
-            'rak_id' => 2,
+            'kategori_id' => 5,
+            'rak_id' => 18,
             'stok' => 4
         ]);
 
@@ -608,8 +608,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-matematika-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 18,
-            'rak_id' => 7,
+            'kategori_id' => 5,
+            'rak_id' => 18,
             'stok' => 4
         ]);
 
@@ -619,8 +619,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-matematika-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 19,
-            'rak_id' => 14,
+            'kategori_id' => 5,
+            'rak_id' => 19,
             'stok' => 4
         ]);
 
@@ -641,8 +641,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-pendidikan-pancasila-dan-kewarganegaraan-X-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 19,
-            'rak_id' => 2,
+            'kategori_id' => 5,
+            'rak_id' => 19,
             'stok' => 2
         ]);
 
@@ -652,8 +652,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-pendidikan-pancasila-dan-kewarganegaraan-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 19,
-            'rak_id' => 7,
+            'kategori_id' => 5,
+            'rak_id' => 19,
             'stok' => 2
         ]);
 
@@ -663,8 +663,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-pendidikan-pancasila-dan-kewarganegaraan-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 19,
-            'rak_id' => 14,
+            'kategori_id' => 5,
+            'rak_id' => 19,
             'stok' => 2
         ]);
 
@@ -685,8 +685,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-pendidikan-jasmani-olahraga-dan-kesehatan-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 19,
-            'rak_id' => 7,
+            'kategori_id' => 5,
+            'rak_id' => 19,
             'stok' => 2
         ]);
 
@@ -718,8 +718,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-prakarya-dan-kewirausahaan-X-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 20,
-            'rak_id' => 2,
+            'kategori_id' => 5,
+            'rak_id' => 20,
             'stok' => 2
         ]);
 
@@ -729,8 +729,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-prakarya-dan-kewirausahaan-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 20,
-            'rak_id' => 7,
+            'kategori_id' => 5,
+            'rak_id' => 20,
             'stok' => 2
         ]);
 
@@ -740,8 +740,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-prakarya-dan-kewirausahaan-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 20,
-            'rak_id' => 14,
+            'kategori_id' => 5,
+            'rak_id' => 20,
             'stok' => 2
         ]);
 
@@ -762,8 +762,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-seni-budaya-X-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 20,
-            'rak_id' => 2,
+            'kategori_id' => 5,
+            'rak_id' => 20,
             'stok' => 2
         ]);
 
@@ -773,8 +773,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-seni-budaya-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 20,
-            'rak_id' => 7,
+            'kategori_id' => 5,
+            'rak_id' => 20,
             'stok' => 2
         ]);
 
@@ -784,8 +784,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-seni-budaya-XII-2018.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 21,
-            'rak_id' => 14,
+            'kategori_id' => 5,
+            'rak_id' => 21,
             'stok' => 2
         ]);
 
@@ -806,8 +806,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-sejarah-indonesia-X-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 21,
-            'rak_id' => 2,
+            'kategori_id' => 5,
+            'rak_id' => 21,
             'stok' => 2
         ]);
 
@@ -817,8 +817,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-guru-sejarah-indonesia-XI-2017.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 21,
-            'rak_id' => 7,
+            'kategori_id' => 5,
+            'rak_id' => 21,
             'stok' => 2
         ]);
 
@@ -2660,8 +2660,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => 'Unggul Sudarmo',
             'penerbit_id' => 5,
-            'kategori_id' => 21,
-            'rak_id' => 6,
+            'kategori_id' => 5,
+            'rak_id' => 21,
             'stok' => 3
         ]);
         Buku::create([
@@ -2670,8 +2670,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => 'Ni ketut Lasmi',
             'penerbit_id' => 5,
-            'kategori_id' => 21,
-            'rak_id' => 6,
+            'kategori_id' => 5,
+            'rak_id' => 21,
             'stok' => 3
         ]);
         Buku::create([
@@ -2680,8 +2680,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => 'Irnaningtyas-Sylva Sagita',
             'penerbit_id' => 5,
-            'kategori_id' => 21,
-            'rak_id' => 6,
+            'kategori_id' => 5,
+            'rak_id' => 21,
             'stok' => 4
         ]);
 
