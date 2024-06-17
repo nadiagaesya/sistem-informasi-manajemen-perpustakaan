@@ -61,7 +61,6 @@ class Bukutamu extends Component
         // Menghitung jumlah pengunjung hari ini
         $this->jumlahPengunjungHariIni = Tamu::whereDate('created_at', now()->format('Y-m-d'))->count();
 
-
         return view('livewire.tamu.buku-tamu');
     }
 

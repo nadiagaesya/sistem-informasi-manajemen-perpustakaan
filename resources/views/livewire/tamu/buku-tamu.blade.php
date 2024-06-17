@@ -106,13 +106,13 @@
                         <p style="font-size: 14px; font-weight:bold;">Hari ini : {{ now()->format('d-m-Y') }}</p>
                     </strong>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
+                {{-- <div class="col-lg-6 col-md-6 col-sm-6">
                     <strong>
                         <p class="text" style="font-size: 14px; font-weight:bold; text-align: right;">Pengunjung :
                             {{ $jumlahPengunjungHariIni }}
                         </p>
                     </strong>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

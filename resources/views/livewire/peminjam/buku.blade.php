@@ -124,7 +124,7 @@
                                     style="cursor: pointer">
                                     <img src="/storage/{{ $item->sampul }}" class="card-img-top"
                                         alt="{{ $item->judul }}" width="250" height="300">
-                                    <div class="card-body">
+                                    <div class="card-body" style="height:120px;">
                                         <h5 class="card-title">
                                             <strong>{{ $item->judul }}</strong>
                                         </h5>

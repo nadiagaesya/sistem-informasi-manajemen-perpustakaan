@@ -1946,7 +1946,7 @@ class BukuSeeder extends Seeder
         Buku::create([
             'judul' => 'Geografi SMA Kelas XI',
             'slug' => Str::slug('Geografi-SMA-Kelas-XI'),
-            'sampul' => 'buku/sampul-buku-XI',
+            'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 3,
             'kategori_id' => 3,
@@ -2548,8 +2548,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 2,
-            'rak_id' => 5,
+            'kategori_id' => 5,
+            'rak_id' => 17,
             'stok' => 2
         ]);
         Buku::create([
@@ -2558,8 +2558,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/cerdas-cergas-berbahasa-dan-bersastra-indonesia-X-2021.jpg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 2,
-            'rak_id' => 5,
+            'kategori_id' => 5,
+            'rak_id' => 17,
             'stok' => 3
         ]);
         Buku::create([
@@ -2568,8 +2568,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 2,
-            'rak_id' => 5,
+            'kategori_id' => 5,
+            'rak_id' => 17,
             'stok' => 4
         ]);
         Buku::create([
@@ -2578,8 +2578,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 2,
-            'rak_id' => 5,
+            'kategori_id' => 5,
+            'rak_id' => 17,
             'stok' => 2
         ]);
         Buku::create([
@@ -2588,8 +2588,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 2,
-            'rak_id' => 5,
+            'kategori_id' => 5,
+            'rak_id' => 17,
             'stok' => 3
         ]);
         Buku::create([
@@ -2598,8 +2598,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 2,
-            'rak_id' => 5,
+            'kategori_id' => 5,
+            'rak_id' => 18,
             'stok' => 9
         ]);
         Buku::create([
@@ -2608,8 +2608,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 2,
-            'rak_id' => 5,
+            'kategori_id' => 5,
+            'rak_id' => 18,
             'stok' => 8
         ]);
         Buku::create([
@@ -2618,8 +2618,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 2,
-            'rak_id' => 5,
+            'kategori_id' => 5,
+            'rak_id' => 18,
             'stok' => 2
         ]);
         Buku::create([
@@ -2628,8 +2628,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 2,
-            'rak_id' => 5,
+            'kategori_id' => 5,
+            'rak_id' => 18,
             'stok' => 2
         ]);
         Buku::create([
@@ -2638,8 +2638,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-X.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 2,
-            'rak_id' => 6,
+            'kategori_id' => 5,
+            'rak_id' => 18,
             'stok' => 1
         ]);
         Buku::create([
@@ -2648,8 +2648,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 10,
+            'kategori_id' => 5,
+            'rak_id' => 19,
             'stok' => 2
         ]);
 
@@ -2886,8 +2886,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 10,
+            'kategori_id' => 5,
+            'rak_id' => 19,
             'stok' => 2
         ]);
         Buku::create([
@@ -2896,8 +2896,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 10,
+            'kategori_id' => 5,
+            'rak_id' => 19,
             'stok' => 3
         ]);
         Buku::create([
@@ -2906,8 +2906,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 10,
+            'kategori_id' => 5,
+            'rak_id' => 19,
             'stok' => 4
         ]);
         Buku::create([
@@ -2916,8 +2916,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-panduan-guru-matematika-XI-2021.jpeg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 10,
+            'kategori_id' => 5,
+            'rak_id' => 19,
             'stok' => 4
         ]);
         Buku::create([
@@ -2926,8 +2926,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 11,
+            'kategori_id' => 5,
+            'rak_id' => 20,
             'stok' => 3
         ]);
         Buku::create([
@@ -2936,8 +2936,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-panduan-guru-geografi-XI.jpeg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 11,
+            'kategori_id' => 5,
+            'rak_id' => 20,
             'stok' => 2
         ]);
         Buku::create([
@@ -2946,8 +2946,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/buku-panduan-guru-ekonomi-XI-2021.jpeg',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 11,
+            'kategori_id' => 5,
+            'rak_id' => 20,
             'stok' => 5
         ]);
         Buku::create([
@@ -2956,8 +2956,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 11,
+            'kategori_id' => 5,
+            'rak_id' => 20,
             'stok' => 3
         ]);
         Buku::create([
@@ -2966,8 +2966,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 11,
+            'kategori_id' => 5,
+            'rak_id' => 20,
             'stok' => 1
         ]);
         Buku::create([
@@ -2976,8 +2976,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 11,
+            'kategori_id' => 5,
+            'rak_id' => 21,
             'stok' => 3
         ]);
         Buku::create([
@@ -2986,8 +2986,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 11,
+            'kategori_id' => 5,
+            'rak_id' => 21,
             'stok' => 3
         ]);
         Buku::create([
@@ -2996,8 +2996,8 @@ class BukuSeeder extends Seeder
             'sampul' => 'buku/sampul-buku-XI.png',
             'penulis' => '-',
             'penerbit_id' => 2,
-            'kategori_id' => 3,
-            'rak_id' => 11,
+            'kategori_id' => 5,
+            'rak_id' => 21,
             'stok' => 2
         ]);
 
