@@ -107,7 +107,7 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <h5>User Terbaru</h5>
+                    <h5>Pengguna Terbaru</h5>
                     <table class="table table-bordered">
                         <thead>
                             <tr>
